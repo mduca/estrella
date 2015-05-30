@@ -1,0 +1,2399 @@
+
+functionCall( {
+  "title" : "Current Pro Bono Advocate Legal Organizations",
+  "id" : "urn:probono-net:organizations-current",
+  "updated" : "2015-05-30T21:04:32Z",
+  "generator" : "Pro Bono Net API",
+  "logo" : "http://www.probono.net/images/design/proBonoNetNTLLg.gif",
+  "os:totalResults" : 1017,
+  "os:startIndex" : 1,
+  "os:itemsPerPage" : 15,
+  "link" : "http://api.probono.net/legalorganizations/current/?name=URL&format=json&auth_token=E564A05852E91F84037F1196E45BABC5&value&encoded=0",
+  "next" : "http://api.probono.net/legalorganizations/current/?page=2&format=json&auth_token=E564A05852E91F84037F1196E45BABC5&preserve=1",
+  "items" :
+  [
+    {
+      "id" : "392553",
+      "title" : "United Farm Workers Foundation (Phoenix Office)",
+      "updated" : "2014-12-11T19:02:13Z",
+      "published" : "2011-09-19T04:58:45Z",
+      "content" : " &lt;p&gt;The United Farm Workers Foundation (UFW Foundation) provides immigration legal assistance to the community through a wide range of services and programs.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392553",
+      "pbn:address" :
+      {
+        "street" : "1440 East Washington St",
+        "city" : "Phoenix",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85034",
+        "latitude" : 33.4486670,
+        "longitude" : -112.0502360
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.ufwfoundation.org",
+        "email" : "phoenixrecept@ufwfoundation.org",
+        "phone" : "(602) 889-0933",
+        "tollfreephone" : "1-877-881-8281"
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "2",
+          "legalArea" : "Asylum applications"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392552",
+      "title" : "International Rescue Committee (Tucson Office)",
+      "updated" : "2015-03-12T20:08:50Z",
+      "published" : "2011-09-19T04:58:45Z",
+      "content" : " &lt;p&gt;The International Rescue Committee (IRC) serves refugees and communities victimized by oppression or violent conflict worldwide. Within the Tucson community, IRC empowers survivors of violent conflict, persecution, and oppression to rebuild their lives and regain self-reliance.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392552",
+      "pbn:address" :
+      {
+        "street" : "3100 N. Campbell Ave",
+        "city" : "Tucson",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85719",
+        "latitude" : 32.2631220,
+        "longitude" : -110.9433948
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.rescue.org",
+        "email" : "Tucson@Rescue.org",
+        "phone" : "(520) 319-2128",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "2",
+          "legalArea" : "Asylum applications"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "60",
+          "language" : "Amharic"
+        }
+        ,
+        {
+          "languageID" : "6",
+          "language" : "Arabic"
+        }
+        ,
+        {
+          "languageID" : "62",
+          "language" : "Bosnian"
+        }
+        ,
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "18",
+          "language" : "German"
+        }
+        ,
+        {
+          "languageID" : "85",
+          "language" : "Nepali"
+        }
+        ,
+        {
+          "languageID" : "37",
+          "language" : "Somali"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+        ,
+        {
+          "languageID" : "39",
+          "language" : "Swahili"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392551",
+      "title" : "International Rescue Committee (Phoenix Office)",
+      "updated" : "2015-02-02T01:22:05Z",
+      "published" : "2011-09-19T04:58:44Z",
+      "content" : " &lt;p&gt;The International Rescue Committee (IRC) responds to the world&apos;s worst humanitarian crises and helps people survive and rebuild their lives. The IRC offers lifesaving care and life-changing assistance to refugees forced to flee from war or disaster.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392551",
+      "pbn:address" :
+      {
+        "street" : "4425 West Olive Avenue",
+        "city" : "Glendale",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85302-3847",
+        "latitude" : 33.5664184,
+        "longitude" : -112.1536489
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.rescue.org/us-program/us-phoenix-az",
+        "email" : "Christopher.Debreceni@rescue.org",
+        "phone" : "(602) 433-2440",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "5",
+          "legalArea" : "Employment-based immigrant and non-immigrant petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+        ,
+        {
+          "serviceID" : "5",
+          "service" : "Representation before the Board of Immigration Appeals (BIA)"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "60",
+          "language" : "Amharic"
+        }
+        ,
+        {
+          "languageID" : "6",
+          "language" : "Arabic"
+        }
+        ,
+        {
+          "languageID" : "105",
+          "language" : "Arabic (Egyptian)"
+        }
+        ,
+        {
+          "languageID" : "12",
+          "language" : "Armenian"
+        }
+        ,
+        {
+          "languageID" : "7",
+          "language" : "Bengali"
+        }
+        ,
+        {
+          "languageID" : "62",
+          "language" : "Bosnian"
+        }
+        ,
+        {
+          "languageID" : "48",
+          "language" : "Burmese"
+        }
+        ,
+        {
+          "languageID" : "13",
+          "language" : "Cantonese Chinese"
+        }
+        ,
+        {
+          "languageID" : "3",
+          "language" : "Chinese"
+        }
+        ,
+        {
+          "languageID" : "67",
+          "language" : "Croatian"
+        }
+        ,
+        {
+          "languageID" : "69",
+          "language" : "Dari"
+        }
+        ,
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "16",
+          "language" : "Farsi"
+        }
+        ,
+        {
+          "languageID" : "50",
+          "language" : "Filipino"
+        }
+        ,
+        {
+          "languageID" : "10",
+          "language" : "French"
+        }
+        ,
+        {
+          "languageID" : "20",
+          "language" : "Haitian Creole"
+        }
+        ,
+        {
+          "languageID" : "107",
+          "language" : "Iraqi"
+        }
+        ,
+        {
+          "languageID" : "25",
+          "language" : "Japanese"
+        }
+        ,
+        {
+          "languageID" : "49",
+          "language" : "Kirundi"
+        }
+        ,
+        {
+          "languageID" : "27",
+          "language" : "Korean"
+        }
+        ,
+        {
+          "languageID" : "28",
+          "language" : "Kurdish"
+        }
+        ,
+        {
+          "languageID" : "9",
+          "language" : "Malay-Indonesian"
+        }
+        ,
+        {
+          "languageID" : "30",
+          "language" : "Mandarin Chinese"
+        }
+        ,
+        {
+          "languageID" : "85",
+          "language" : "Nepali"
+        }
+        ,
+        {
+          "languageID" : "87",
+          "language" : "Pashto"
+        }
+        ,
+        {
+          "languageID" : "88",
+          "language" : "Persian"
+        }
+        ,
+        {
+          "languageID" : "8",
+          "language" : "Portuguese"
+        }
+        ,
+        {
+          "languageID" : "33",
+          "language" : "Punjabi"
+        }
+        ,
+        {
+          "languageID" : "5",
+          "language" : "Russian"
+        }
+        ,
+        {
+          "languageID" : "91",
+          "language" : "Serbian"
+        }
+        ,
+        {
+          "languageID" : "37",
+          "language" : "Somali"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+        ,
+        {
+          "languageID" : "38",
+          "language" : "Sudanese"
+        }
+        ,
+        {
+          "languageID" : "39",
+          "language" : "Swahili"
+        }
+        ,
+        {
+          "languageID" : "40",
+          "language" : "Tagalog"
+        }
+        ,
+        {
+          "languageID" : "112",
+          "language" : "Tigrinya"
+        }
+        ,
+        {
+          "languageID" : "43",
+          "language" : "Turkish"
+        }
+        ,
+        {
+          "languageID" : "44",
+          "language" : "Urdu"
+        }
+        ,
+        {
+          "languageID" : "45",
+          "language" : "Vietnamese"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "Bembe, Chaldean, Chin (various dialects), Chinese (Hakka), Dhalou, Dinka, Ewe (Togo), Karen, Karenni, Kibembe, Kinyarwanda, Kiswahili, Kunama, Lingala, Malagsay, Mina (Togo), Nuer, Saha (Eritrea), Sango, Shan, Somali (Maay Maay, Bantu)",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+          {
+            "countryAbbreviation" : "US",
+            "country" : "United States",
+            "states" :
+            [
+
+              {
+                "stateAbbreviation" : "AZ",
+                "state" : "Arizona"
+              }
+
+            ]
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392550",
+      "title" : "Horizons for Refugee Families",
+      "updated" : "2015-02-17T15:38:47Z",
+      "published" : "2011-09-19T04:58:44Z",
+      "content" : " &lt;p&gt;Horizons for Refugee Families offers a variety of services and programs such as immigration assistance, preliterate ESL classes, a Youth Mentor Program, cultural support, and community outreach.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392550",
+      "pbn:address" :
+      {
+        "street" : "4500 E. Speedway Blvd",
+        "city" : "Tucson",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85712",
+        "latitude" : 32.2347534,
+        "longitude" : -110.8969220
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://refugeehorizons.org",
+        "email" : "mursal@refugeehorizons.org",
+        "phone" : "(520) 881-4373",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "2",
+          "legalArea" : "Asylum applications"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+        ,
+        {
+          "serviceID" : "5",
+          "service" : "Representation before the Board of Immigration Appeals (BIA)"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "37",
+          "language" : "Somali"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "Maay Maay",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+        ,
+        "detentionFacilities" :
+        [
+
+          {
+            "detentionFacilityID" : "41",
+            "detentionFacility" : "Eloy Federal Contract Facility "
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392549",
+      "title" : "Lutheran Social Services of the Southwest - Refugee Focus (Tucson Office)",
+      "updated" : "2015-01-16T19:23:48Z",
+      "published" : "2011-09-19T04:58:44Z",
+      "content" : " &lt;p&gt;Lutheran Social Services of the Southwest (LSS-SW) provides refugee and immigration programs to the communities of Tucson. Through a wide variety of services, LSS-SW helps refugees and immigrants establish a new life in Arizona.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392549",
+      "pbn:address" :
+      {
+        "street" : "120 N Stone Ave",
+        "city" : "Tucson",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85701",
+        "latitude" : 32.2235260,
+        "longitude" : -110.9708620
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.refugeefocus.org",
+        "email" : "",
+        "phone" : "(520) 721-4444",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "6",
+          "language" : "Arabic"
+        }
+        ,
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "16",
+          "language" : "Farsi"
+        }
+        ,
+        {
+          "languageID" : "10",
+          "language" : "French"
+        }
+        ,
+        {
+          "languageID" : "49",
+          "language" : "Kirundi"
+        }
+        ,
+        {
+          "languageID" : "85",
+          "language" : "Nepali"
+        }
+        ,
+        {
+          "languageID" : "5",
+          "language" : "Russian"
+        }
+        ,
+        {
+          "languageID" : "34",
+          "language" : "Serbo-Croatian"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+        ,
+        {
+          "languageID" : "39",
+          "language" : "Swahili"
+        }
+        ,
+        {
+          "languageID" : "112",
+          "language" : "Tigrinya"
+        }
+        ,
+        {
+          "languageID" : "43",
+          "language" : "Turkish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "Assyrian, Maay Maay, Kirundi, Kinyarwanda, Kinyamurenge, Lingala, Chaldean",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392548",
+      "title" : "Lutheran Social Services of the Southwest -Refugee Focus (Phoenix Office)",
+      "updated" : "2015-01-16T19:21:04Z",
+      "published" : "2011-09-19T04:58:43Z",
+      "content" : " &lt;p&gt;Lutheran Social Services of the Southwest (LSS-SW) provides refugee and immigration programs to the communities of Phoenix. Through a wide variety of services, LSS-SW helps refugees and immigrants establish a new life in Arizona.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392548",
+      "pbn:address" :
+      {
+        "street" : "3443 N. Central Ave",
+        "city" : "Phoenix",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85012",
+        "latitude" : 33.4878160,
+        "longitude" : -112.0728576
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.refugeefocus.org",
+        "email" : "",
+        "phone" : "(602) 248-4400",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "11",
+          "language" : "Albanian"
+        }
+        ,
+        {
+          "languageID" : "60",
+          "language" : "Amharic"
+        }
+        ,
+        {
+          "languageID" : "6",
+          "language" : "Arabic"
+        }
+        ,
+        {
+          "languageID" : "48",
+          "language" : "Burmese"
+        }
+        ,
+        {
+          "languageID" : "69",
+          "language" : "Dari"
+        }
+        ,
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "16",
+          "language" : "Farsi"
+        }
+        ,
+        {
+          "languageID" : "10",
+          "language" : "French"
+        }
+        ,
+        {
+          "languageID" : "4",
+          "language" : "Hindi"
+        }
+        ,
+        {
+          "languageID" : "49",
+          "language" : "Kirundi"
+        }
+        ,
+        {
+          "languageID" : "85",
+          "language" : "Nepali"
+        }
+        ,
+        {
+          "languageID" : "31",
+          "language" : "Oromo"
+        }
+        ,
+        {
+          "languageID" : "87",
+          "language" : "Pashto"
+        }
+        ,
+        {
+          "languageID" : "5",
+          "language" : "Russian"
+        }
+        ,
+        {
+          "languageID" : "34",
+          "language" : "Serbo-Croatian"
+        }
+        ,
+        {
+          "languageID" : "37",
+          "language" : "Somali"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+        ,
+        {
+          "languageID" : "42",
+          "language" : "Thai"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "Chaldean, Assyrian, Karen, Chin, Dzongkha, Bhutanese, Kunama, Tigrinya, Kinyarwanda, Lingala, Kiswahili, Kibembe, Dinka, Ewe, Ghanaian",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392546",
+      "title" : "Chicanos Por La Causa Family Immigration Services",
+      "updated" : "2014-12-11T19:43:41Z",
+      "published" : "2011-09-19T04:58:43Z",
+      "content" : " &lt;p&gt;The Family Immigration Services program was established in 1978 in Somerton, Arizona in response to the growing number of families in need of immigration services.The program is designed to guide families and individuals through the immigration process and to help the community understand the various stages of the immigration process.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392546",
+      "pbn:address" :
+      {
+        "street" : "308 West Main Street",
+        "city" : "Somerton",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85350",
+        "latitude" : 32.5966307,
+        "longitude" : -114.7140735
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.cplc.org/",
+        "email" : "ramona.corrales@cplc.org",
+        "phone" : "(928) 627-2042",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392545",
+      "title" : "American Beginnings - Proyecto San Pablo",
+      "updated" : "2015-04-21T17:39:13Z",
+      "published" : "2011-09-19T04:58:43Z",
+      "content" : " &lt;p&gt;American Beginnings - Proyecto San Pablo has been serving the immigrant community for over 17 years, providing immigration legal services.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392545",
+      "pbn:address" :
+      {
+        "street" : "2215 S. 8th Ave",
+        "city" : "Yuma",
+        "state" :
+        {
+          "stateAbbreviation" : "AZ",
+          "stateName" : "Arizona"
+        },
+        "zipcode" : "85364",
+        "latitude" : 32.6860222,
+        "longitude" : -114.6285745
+      },
+      "pbn:contact" :
+      {
+        "website" : "",
+        "email" : "americanbeginnings@yahoo.com",
+        "phone" : "(928) 783-5794",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "2",
+          "legalArea" : "Asylum applications"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "12",
+          "legalArea" : "T visas"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+        ,
+        {
+          "serviceID" : "3",
+          "service" : "Representation at Asylum Interviews (Credible Fear Interviews, Reasonable Fear Interviews)"
+        }
+        ,
+        {
+          "serviceID" : "4",
+          "service" : "Representation before the Immigration Court"
+        }
+        ,
+        {
+          "serviceID" : "5",
+          "service" : "Representation before the Board of Immigration Appeals (BIA)"
+        }
+        ,
+        {
+          "serviceID" : "6",
+          "service" : "Federal court appeals"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+        ,
+        "detentionFacilities" :
+        [
+
+          {
+            "detentionFacilityID" : "37",
+            "detentionFacility" : "El Centro SPC "
+          }
+          ,
+          {
+            "detentionFacilityID" : "41",
+            "detentionFacility" : "Eloy Federal Contract Facility "
+          }
+          ,
+          {
+            "detentionFacilityID" : "143",
+            "detentionFacility" : "Yuba County Detention Center "
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392544",
+      "title" : "Catholic Charities Immigration Services (Little Rock Office)",
+      "updated" : "2015-02-19T20:16:53Z",
+      "published" : "2011-09-19T04:58:42Z",
+      "content" : " &lt;p&gt;Catholic Charities Immigration Services provides low-cost immigration counseling and support to families and individuals who are eligible for immigration benefits and who cannot afford private assistance.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392544",
+      "pbn:address" :
+      {
+        "street" : "2500 N. Tyler St",
+        "city" : "Little Rock",
+        "state" :
+        {
+          "stateAbbreviation" : "AR",
+          "stateName" : "Arkansas"
+        },
+        "zipcode" : "72217",
+        "latitude" : 34.7750451,
+        "longitude" : -92.3333687
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.dolr.org/offices/catholiccharities/immigration.php",
+        "email" : "",
+        "phone" : "(501) 664-0340 ext. 314",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "12",
+          "legalArea" : "T visas"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+          {
+            "countryAbbreviation" : "US",
+            "country" : "United States",
+            "states" :
+            [
+
+              {
+                "stateAbbreviation" : "AR",
+                "state" : "Arkansas"
+              }
+
+            ]
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392543",
+      "title" : "University of Arkansas School of Law - Immigration Clinic",
+      "updated" : "2014-12-10T21:45:22Z",
+      "published" : "2011-09-19T04:58:42Z",
+      "content" : " &lt;p&gt;The Immigration Law Clinic at the University of Arkansas School of Law offers pro bono representation and legal assistance to immigrants in the local community.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392543",
+      "pbn:address" :
+      {
+        "street" : "1045 W. Maple St",
+        "city" : "Fayetteville",
+        "state" :
+        {
+          "stateAbbreviation" : "AR",
+          "stateName" : "Arkansas"
+        },
+        "zipcode" : "72701",
+        "latitude" : 36.0697370,
+        "longitude" : -94.1748704
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://law.uark.edu",
+        "email" : "ely001@uark.edu",
+        "phone" : "(479) 575-3056",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "2",
+          "legalArea" : "Asylum applications"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "8",
+          "legalArea" : "NACARA"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "10",
+          "legalArea" : "Removal hearings"
+        }
+        ,
+        {
+          "legalAreaID" : "11",
+          "legalArea" : "Special Immigrant Juvenile Status"
+        }
+        ,
+        {
+          "legalAreaID" : "12",
+          "legalArea" : "T visas"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+        ,
+        {
+          "serviceID" : "3",
+          "service" : "Representation at Asylum Interviews (Credible Fear Interviews, Reasonable Fear Interviews)"
+        }
+        ,
+        {
+          "serviceID" : "4",
+          "service" : "Representation before the Immigration Court"
+        }
+        ,
+        {
+          "serviceID" : "5",
+          "service" : "Representation before the Board of Immigration Appeals (BIA)"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392539",
+      "title" : "Catholic Charities Immigration Services (Springdale Office)",
+      "updated" : "2014-12-10T20:49:47Z",
+      "published" : "2011-09-19T04:58:41Z",
+      "content" : " &lt;p&gt;Catholic Charities Immigration Services provides low-cost immigration counseling and support to families and individuals who are eligible for immigration benefits and cannot afford private assistance.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392539",
+      "pbn:address" :
+      {
+        "street" : "2022 W. Sunset Ave",
+        "city" : "Springdale",
+        "state" :
+        {
+          "stateAbbreviation" : "AR",
+          "stateName" : "Arkansas"
+        },
+        "zipcode" : "72762",
+        "latitude" : 36.1751270,
+        "longitude" : -94.1525500
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.dolr.org/offices/catholiccharities/immigration-springdale.php",
+        "email" : "",
+        "phone" : "(479) 927-1996",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "2",
+          "legalArea" : "Asylum applications"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "5",
+          "legalArea" : "Employment-based immigrant and non-immigrant petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "8",
+          "legalArea" : "NACARA"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "11",
+          "legalArea" : "Special Immigrant Juvenile Status"
+        }
+        ,
+        {
+          "legalAreaID" : "12",
+          "legalArea" : "T visas"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+          {
+            "countryAbbreviation" : "US",
+            "country" : "United States",
+            "states" :
+            [
+
+              {
+                "stateAbbreviation" : "AR",
+                "state" : "Arkansas"
+              }
+
+            ]
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392538",
+      "title" : "Hispanic Interest Coalition of Alabama",
+      "updated" : "2015-03-03T18:39:38Z",
+      "published" : "2011-09-19T04:58:40Z",
+      "content" : " &lt;p&gt;Hispanic Interest Coalition of Alabama (HICA) provides a wide range of services to the growing immigrant Latino community in Alabama and the Southeast. HICA&apos;s Immigration and Access to Justice program provides direct representation in family-based immigration cases, as well as applications for humanitarian visas for victims of crime and domestic violence. Services include DACA, N-400, VAWA, Consular Processing, Adjustment of Status, Green Card renewal, U-Visa, and other related family immigration matters. HICA will be processing DAPA applications when the time comes. HICA is a BIA recognized organization with 3 BIA partially accredited staff. Services are fee-based, but consideration is given to those with limited financial resources.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392538",
+      "pbn:address" :
+      {
+        "street" : "117 Southcrest Drive",
+        "city" : "Birmingham",
+        "state" :
+        {
+          "stateAbbreviation" : "AL",
+          "stateName" : "Alabama"
+        },
+        "zipcode" : "35209",
+        "latitude" : 33.4677274,
+        "longitude" : -86.8307315
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.hispanicinterest.org",
+        "email" : "info@hispanicinterest.org",
+        "phone" : "(205) 942-5505",
+        "tollfreephone" : "1-866-502-4422"
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "8",
+          "legalArea" : "NACARA"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "11",
+          "legalArea" : "Special Immigrant Juvenile Status"
+        }
+        ,
+        {
+          "legalAreaID" : "12",
+          "legalArea" : "T visas"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+          {
+            "countryAbbreviation" : "US",
+            "country" : "United States",
+            "states" :
+            [
+
+              {
+                "stateAbbreviation" : "AL",
+                "state" : "Alabama"
+              }
+
+            ]
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392536",
+      "title" : "Catholic Social Services of Montgomery - Immigrant Services",
+      "updated" : "2014-12-10T21:02:10Z",
+      "published" : "2011-09-19T04:58:40Z",
+      "content" : " &lt;p&gt;Catholic Social Services of Montgomery provides, at low cost,&amp;nbsp;family based immigration services to the community.&amp;nbsp;&amp;nbsp;CSS Montgomery has been providing assistance with all family based immigration procedures including Consular Processing, DACA, Citizenship&amp;nbsp;and will be providing assistance with &amp;quot;Deferred Action for Parental Accountability&amp;quot; as soon as it is available.&amp;nbsp;&amp;nbsp;Assistance with emergency clothing, food and prescriptions is also available. We can provide immigration legal referrals.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392536",
+      "pbn:address" :
+      {
+        "street" : "4455 Narrow Lane Rd",
+        "city" : "Montgomery",
+        "state" :
+        {
+          "stateAbbreviation" : "AL",
+          "stateName" : "Alabama"
+        },
+        "zipcode" : "36116",
+        "latitude" : 32.3203614,
+        "longitude" : -86.2807109
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www/cssalabama.org/contactmob.htm",
+        "email" : "owhite@cssalabama.org",
+        "phone" : "(334) 288-8890 ext. 218",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+        ,
+        "detentionFacilities" :
+        [
+
+          {
+            "detentionFacilityID" : "44",
+            "detentionFacility" : "Etowah County Jail "
+          }
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392535",
+      "title" : "Catholic Social Services of Mobile - Refugee Resettlement Program (Mobile Office)",
+      "updated" : "2015-02-19T20:13:11Z",
+      "published" : "2011-09-19T04:58:39Z",
+      "content" : " &lt;p&gt;The Refugee Resettlement Program is the branch of Catholic Social Services created to meet the special needs of refugees. It is the only Refugee Resettlement Program in the state of Alabama and offers a wide range of immigration services provided in a professional, efficient and low cost manner. Our staff is accredited and recognized by the Board of Immigration Appeals (BIA).&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392535",
+      "pbn:address" :
+      {
+        "street" : "406 Government St",
+        "city" : "Mobile",
+        "state" :
+        {
+          "stateAbbreviation" : "AL",
+          "stateName" : "Alabama"
+        },
+        "zipcode" : "36602",
+        "latitude" : 30.6888230,
+        "longitude" : -88.0463850
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.catholicsocialservicesmobile.com/cssmob",
+        "email" : "",
+        "phone" : "(251) 432-2727",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "6",
+          "language" : "Arabic"
+        }
+        ,
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "10",
+          "language" : "French"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+        ,
+        {
+          "languageID" : "45",
+          "language" : "Vietnamese"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+    ,
+    {
+      "id" : "392534",
+      "title" : "Catholic Social Services of Mobile - Legal Immigration Program (Baldwin Office)",
+      "updated" : "2014-12-10T20:58:02Z",
+      "published" : "2011-09-19T04:58:39Z",
+      "content" : " &lt;p&gt;The Legal Immigration Program provides a variety of services to the poor and underserved by means of emergency assistance, resource development, and casework.&lt;/p&gt;",
+      "author" :
+      {
+        "name" : "IAN Nonprofit Resource Center ",
+        "uri" : "http://www.immigrationadvocates.org/nonprofit/"
+      },
+      "link" : "http://www.immigrationadvocates.org/nonprofit/legaldirectory/organization.392534",
+      "pbn:address" :
+      {
+        "street" : "23010 Hwy 59 N.",
+        "city" : "Robertsdale",
+        "state" :
+        {
+          "stateAbbreviation" : "AL",
+          "stateName" : "Alabama"
+        },
+        "zipcode" : "36567",
+        "latitude" : 30.5619662,
+        "longitude" : -87.7169360
+      },
+      "pbn:contact" :
+      {
+        "website" : "http://www.cssbaldwin.org",
+        "email" : "sknight@mobilearchdiocese.org",
+        "phone" : "(251) 947-3878",
+        "tollfreephone" : ""
+      },
+      "pbn:legalAreas" :
+      [
+
+        {
+          "legalAreaID" : "1",
+          "legalArea" : "Adjustment of Status"
+        }
+        ,
+        {
+          "legalAreaID" : "3",
+          "legalArea" : "Consular Processing"
+        }
+        ,
+        {
+          "legalAreaID" : "4",
+          "legalArea" : "Employment authorization"
+        }
+        ,
+        {
+          "legalAreaID" : "6",
+          "legalArea" : "Family-based petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "9",
+          "legalArea" : "Naturalization/Citizenship"
+        }
+        ,
+        {
+          "legalAreaID" : "13",
+          "legalArea" : "Temporary Protected Status (TPS)"
+        }
+        ,
+        {
+          "legalAreaID" : "14",
+          "legalArea" : "U visas"
+        }
+        ,
+        {
+          "legalAreaID" : "15",
+          "legalArea" : "Violence Against Women Act (VAWA) petitions"
+        }
+        ,
+        {
+          "legalAreaID" : "16",
+          "legalArea" : "Deferred Action for Childhood Arrivals (DACA)"
+        }
+        ,
+        {
+          "legalAreaID" : "17",
+          "legalArea" : "Deferred Action for Parents of Americans and Lawful Permanent Residents (DAPA)"
+        }
+
+      ],
+      "pbn:legalServices" :
+      [
+
+        {
+          "serviceID" : "1",
+          "service" : "Help completing forms"
+        }
+        ,
+        {
+          "serviceID" : "2",
+          "service" : "Filings with USCIS"
+        }
+
+      ],
+      "pbn:languages" :
+      [
+
+      ],
+      "pbn:otherlanguages" : "",
+      "pbn:languagesspoken" :
+      [
+
+        {
+          "languageID" : "1",
+          "language" : "English"
+        }
+        ,
+        {
+          "languageID" : "2",
+          "language" : "Spanish"
+        }
+
+      ],
+      "pbn:otherlanguagesspoken" : "",
+      "pbn:coverage" :
+      {
+
+        "countries" :
+        [
+
+        ]
+
+      }
+
+    }
+]
+});
