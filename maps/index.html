@@ -1,7 +1,34 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
 <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
 <script src='afile.js'>
 
 </script>
 <body onload='getData()'>
+<h1>Estrella</h1>
+  <!--EN | ES-->
+  <div>
+    Select Language:<br/>
+    <select name=language>
+      <option value='1'>English</option>
+      <option value='2'>Spanish</option>
+    </select>
+  </div>
+<label>
+Where are you (Enter zipcode):<br/>
+<input type='text' id=location /><br/>
+  <a href='#' onclick='find_me()'>Find Me</a><br/>
+  <a href='#' onclick='start_search()'>Find Organizations</a><br/>
+  </label>
+<label>Area of need:
+    <select name=language>
+      <option value='1'>Area1</option>
+      <option value='2'>Area2</option>
+    </select>
+  </label>
+
+
+
+  <h2>Organizations:</h2>
   <div id='org_list'></div>
   </body>

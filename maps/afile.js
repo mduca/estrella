@@ -1,4 +1,42 @@
 var jData = {};
+var i18nData = [];
+i18nData[""]
+
+/**
+*
+*/
+function start_search(){
+
+
+}
+/**
+* find_me fill in location input with latlon coordinates
+*/
+function find_me(){
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        alert("Geolocation is not supported by this browser.");
+    }
+}
+function showPosition(position) {
+    var v = 'lat:' + position.coords.latitude;
+    v += " lon: " + position.coords.longitude;
+    document.getElementById("location").value = v;
+}
+
+function i18n(lang, text){
+
+
+}
+
+// latlon 2 zipcode
+// address to zipcode
+// location to eta
+// sort by eta
+
+// http://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&sensor=false
+
 function functionCall(obj){
   jData =  obj;
 }
