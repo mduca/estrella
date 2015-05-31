@@ -1,0 +1,31 @@
+<div class="container">
+	
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>Here are the results we found for you.</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<table class="table">
+  				<% @results.each do |organization| %>
+  					<tr>
+  						<td>	<% organization["pbn:legalServices"].each do |legalservice| %>
+  									<%= legalservice["service"] %>
+  								<% end %>
+  						<br/><%= organization["title"] %></td>
+  						<td>15min</td>
+  						<td><a href="/results/<%= organization["id"] %>" class="btn btn-success">Contact</a></td>
+  					</tr>
+
+  				<% end %>
+			</table>
+		</div>
+	</div>
+
+	<div class="row map">
+		
+	</div>
+
+</div>

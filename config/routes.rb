@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :results
-  resources :contacts
 
   get 'screening/question_1' => 'screening#question_1'
   post 'screening/question_1' => 'screening#question_1'
