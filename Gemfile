@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'htmlentities', "4.2.4"
 # Bootstrap gem
 gem 'bootstrap-sass', '~> 3.3.4'
 

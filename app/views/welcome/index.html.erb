@@ -1,3 +1,11 @@
+<style>
+				
+@media (max-width: 480px) {
+	
+	h1 {
+		font-size:16pt;
+	}
+</style>
 <script>
 var please_wait_str = "<%= I18n.t(:please_wait) %>";
 //some languages require rtl
@@ -157,7 +165,7 @@ function ajax(url,func){
 			      <div id="location-arrow" class="input-group-addon"><i style='cursor:pointer' onclick='find_me()' class="fa fa-location-arrow"></i></div>
 			    </div>
 			    <div class="input-group">
-									<select class="form-control" name="state" id="state">
+									<select style='display:none' class="form-control" name="state" id="state">
 												<option value=AL>Alabama</option>
 												<option value=AK>Alaska</option>
 												<option value=AZ>Arizona</option>

@@ -2,6 +2,7 @@ require 'json' # for markers
 require 'pp'  # for debugging
 require 'open-uri' # for api request
 require 'net/http' # I don't think we need this one.
+require 'htmlentities'
 
 class ResultsController < ApplicationController
 	layout 'guided'
@@ -118,10 +119,9 @@ class ResultsController < ApplicationController
 			parameters += "&legalServices" + @current_path.legalServices
 		end
 
-		
 		#END TODO
 
-		#hardcoded for how
+		#Center map on san francisco...
 		@latlng =  "37.7749295,-122.4194155"
 
 		parameter_name = ""
@@ -158,6 +158,9 @@ class ResultsController < ApplicationController
 			rec["url"] = organization["link"]
 			rec["phone"] = organization["pbn:contact"]["phone"]
 			rec["email"] = organization["pbn:contact"]["email"]
+
+			#Center map on final result.
+		  @latlng = organization["pbn:address"]["latitude"].to_s + ","+organization["pbn:address"]["longitude"].to_s
 			
 			@markers << rec
 		end
