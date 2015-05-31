@@ -1,3 +1,9 @@
+<style>
+				.capitalize option{
+					text-transform:capitalize;
+				}
+
+</style>
 <div class="container">
 	
 	<div class="row">
@@ -7,11 +13,27 @@
 			  <div class="form-group row">
 				  <div class="col-xs-5"><label for="language"><%= I18n.t(:select_language) %></label></div>
 			    
-			    <div class="col-xs-7">
-				  <select class="form-control" name="locale" onchange='location.href = "?locale=" + this.value'>
-					<option value='en' <%= "selected" if params["locale"] == "en" %> >English</option>
-					<option value='es' <%= "selected" if params["locale"] == "es" %> >Español</option>
-				</select>
+					<div class="col-xs-7">
+
+				  <select class="capitalize form-control" name="locale" onchange='location.href = "?locale=" + this.value'>
+								<option <%= "selected" if params["locale"] == "en" %> value='en'>english</option>
+								<option <%= "selected" if params["locale"] == "fr" %> value='fr'>français</option>
+								<option <%= "selected" if params["locale"] == "arb" %> value='arb'>العراقية</option>
+								<option <%= "selected" if params["locale"] == "sq" %> value='sq'>albanian</option>
+								<option <%= "selected" if params["locale"] == "hy" %> value='hy'>հայերեն</option>
+								<option <%= "selected" if params["locale"] == "zh" %> value='zh'>中国粤菜</option>
+								<option <%= "selected" if params["locale"] == "fa" %> value='fa'>فارسی</option>
+								<option <%= "selected" if params["locale"] == "de" %> value='de'>deutsche</option>
+								<option <%= "selected" if params["locale"] == "es" %> value='es'>español</option>
+								<option <%= "selected" if params["locale"] == "ht" %> value='ht'>kreyòl ayisyen</option>
+								<option <%= "selected" if params["locale"] == "ja" %> value='ja'>日本語</option>
+								<option <%= "selected" if params["locale"] == "ko" %> value='ko'>한국어</option>
+								<option <%= "selected" if params["locale"] == "zh-tw" %> value='zh-tw'>中國</option>
+								<option <%= "selected" if params["locale"] == "cmn" %> value='cmn'>中国官话</option>
+								<option <%= "selected" if params["locale"] == "pa" %> value='pa'>ਪੰਜਾਬੀ'</option>
+								<option <%= "selected" if params["locale"] == "bs" %> value='bs'>srpsko-hrvatski</option>
+
+	</select>
 				</div>
 			  </div>
 			</form>
