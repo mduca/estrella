@@ -1,13 +1,40 @@
 var jData = {};
 var i18nData = [];
+var geocode_results = {};
 i18nData[""]
 
+function lonlat2zipcode(cb){
+	// 
+	var zipcode = "";
+	//ajax("http://maps.googleapis.com/maps/api/geocode/json?latlng=37.7875322,-122.3967094&sensor=true",
+	
+	ajax("./api2.json", function(txt){
+		try{
+			var a = JSON.parse(txt);
+			geocode_results = a;
+			cb(a);
+		}catch(e){
+			alert(e);
+		}
+	});
+	return zipcode;
+}
 /**
 *
 */
 function start_search(){
-
-
+	lonlat2zipcode(function(a){
+		alert(a.results[0].address_components[7].types[0]);
+		var ac = a.results[0].address_components;
+		//var ac = a["results"][0]["address_components"];
+		for(var i=0;ac.length;i++){
+			if(ac[i]["types"][0] == "postal_code"){
+				document.getElementById("location").value = ac[i]["short_name"];
+				return;
+			}
+		}
+		document.getElementById("location").value = "Zip not found :(";
+	});
 }
 /**
 * find_me fill in location input with latlon coordinates

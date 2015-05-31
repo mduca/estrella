@@ -86,6 +86,12 @@ en:
   Strike_6: ""
   Strike_7: ""
   Strike_8: ""
+  select_language: "Select a Language"
+  select_language: "Select a Language"
+  we_help_you: "We help you find legal help."
+  where_do_you_live: "Where do you live?"
+  enter_zip: "Enter city, state, zip..."
+  start: "Start!"
 
 es:
   question_1: "¿Es usted un ciudadano de EE.UU.?"
@@ -144,4 +150,9 @@ es:
 
   question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
   question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
-
+  select_language: "Selecciona un Idioma"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"          
