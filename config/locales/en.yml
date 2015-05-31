@@ -98,7 +98,7 @@ en:
   nav_go: "Go"
   nav_contact: "Contact"
   Nav_helm_me: "Request Help"
-  here_are_results: "Here are the results we found for your location: %s and your language: %s"
+  here_are_results: "Here are the results we found for your location: _ and your language: __"
   please_wait: "Please Wait.."
 es:
   KEY: "CONTENIDO"
@@ -170,7 +170,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 fr:
   id: "CONTENU"
@@ -242,7 +242,7 @@ fr:
   nav_go: "Aller"
   nav_contact: "Contact"
   Nav_helm_me: "Demande d'aide"
-  here_are_results: "Voici les résultats que nous avons trouvés pour votre emplacement:%s et votre langue:%s"
+  here_are_results: "Voici les résultats que nous avons trouvés pour votre emplacement: _ et votre langue: __"
   please_wait: "S'il vous plaît Attendez .."
 arb:
   KEY: "CONTENT"
@@ -314,7 +314,7 @@ arb:
   nav_go: "اذهب"
   nav_contact: "اتصال"
   Nav_helm_me: "طلب مساعدة"
-  here_are_results: "وهنا النتائج وجدنا لموقعك:٪ الصورة واللغة:٪ الصورة"
+  here_are_results: "وهنا النتائج وجدنا لموقعك: _ واللغة: __"
   please_wait: "يرجى الانتظار .."
 sq:
   KEY: "PËRMBAJTJA"
@@ -386,7 +386,7 @@ sq:
   nav_go: "Shkoj"
   nav_contact: "Kontakt"
   Nav_helm_me: "Kërkesa Ndihmë"
-  here_are_results: "Këtu janë rezultatet kemi gjetur për vendndodhjen tuaj:%s dhe gjuha juaj:%s"
+  here_are_results: "Këtu janë rezultatet kemi gjetur për vendndodhjen tuaj: _ dhe gjuhën tuaj: __"
   please_wait: "Ju lutem prisni .."
 zh:
   KEY: "内容"
@@ -458,7 +458,7 @@ zh:
   nav_go: "去"
   nav_contact: "联系"
   Nav_helm_me: "请求帮助"
-  here_are_results: "下面是我们找到适合您所在地的结果：％s和你的语言：％S"
+  here_are_results: "下面是我们找到适合您所在地的结果：_和你的语言：__"
   please_wait: "请稍候.."
 fa:
   KEY: "CONTENT"
@@ -530,7 +530,7 @@ fa:
   nav_go: "رفتن"
   nav_contact: "تماس"
   Nav_helm_me: "درخواست"
-  here_are_results: "٪ s و زبان:: در اینجا نتایج ما برای مکان خود را در بر داشت از٪ s"
+  here_are_results: "_ و زبان:: در اینجا نتایج ما برای مکان خود را پیدا می __"
   please_wait: "لطفا صبر کنید .."
 de:
   KEY: "CONTENT"
@@ -602,7 +602,7 @@ de:
   nav_go: "Gehen"
   nav_contact: "Kontakt"
   Nav_helm_me: "Hilfe anfordern"
-  here_are_results: "Hier sind die Ergebnisse fanden wir für Ihr Land:%s und ihrer Sprache aus:%s"
+  here_are_results: "Hier sind die Ergebnisse fanden wir für Ihr Land: _ und Ihre Sprache: __"
   please_wait: "Bitte Warten .."
 ko:
   question_1: "당신은 미국 시민입니까?"
@@ -673,7 +673,7 @@ ko:
   nav_go: "가기"
   nav_contact: "접촉"
   Nav_helm_me: "요청 도움말"
-  here_are_results: "%s 및 언어 : 여기에 우리가 당신의 위치를​​ 발견 결과는 %의"
+  here_are_results: "_ 및 언어 : 여기에 우리가 당신의 위치를​​ 찾은 결과는 __"
   please_wait: "잠시 기다려주십시오 .."
 zh-tw:
   question_1_info: "您可以在出生時或出生後成為美國公民。要成為美國公民你必須已經在美國出生（或美國領土或屬地外圍）出生。要成為美國公民出生後，你必須入籍或申請“派生”或通過家長“後天”公民身份。"
@@ -743,7 +743,7 @@ zh-tw:
   nav_go: "去"
   nav_contact: "聯繫"
   Nav_helm_me: "請求幫助"
-  here_are_results: "下面是我們找到適合您所在地的結果：％s和你的語言：％S"
+  here_are_results: "下面是我們找到適合您所在地的結果：_和你的語言：__"
   please_wait: "請稍候.."
 ht:
   question_1_option_1: "Wi, se mwen menm yon sitwayen ameriken"
@@ -812,7 +812,7 @@ ht:
   nav_go: "Ale"
   nav_contact: "Kontakte"
   Nav_helm_me: "Mande èd"
-  here_are_results: "Isit la yo se rezilta yo nou te jwenn ki kote ou:%s ak lang ou:%s"
+  here_are_results: "Isit la yo se rezilta yo nou te jwenn ki kote ou: _ ak lang ou: __"
   please_wait: "Please Wait .."
 ja:
   question_1_option_2: "いいえ、私は米国市民ではないです"
@@ -880,7 +880,7 @@ ja:
   nav_go: "行きます"
   nav_contact: "コンタクト"
   Nav_helm_me: "リクエストヘルプ"
-  here_are_results: "％sおよび言語の選択：：％sのここでは、お住まいの地域のために得られた結果は、"
+  here_are_results: "_あなたの言語：ここでは、お住まいの地域のために見出された結果です_"
   please_wait: "お待ちください.."
 cmn:
   question_1_sub_1: "你们是不是要赞助一个家庭成员绿卡？"
@@ -947,7 +947,7 @@ cmn:
   nav_go: "去"
   nav_contact: "联系"
   Nav_helm_me: "请求帮助"
-  here_are_results: "下面是我们找到适合您所在地的结果：％s和你的语言：％S"
+  here_are_results: "下面是我们找到适合您所在地的结果：_和你的语言：__"
   please_wait: "请稍候.."
 pa:
   question_1_sub_1_info: "ਅਮਰੀਕਾ ਦੀ ਇਕ ਨਾਗਰਿਕ ਨੂੰ ਇੱਕ ਸਾਥੀ ਜ ਇੱਕ ਬੱਚੇ ਨੂੰ ਇੱਕ ਹਰੇ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ. 'ਤੇ ਘੱਟੋ-ਘੱਟ 21 ਸਾਲ ਦੀ ਉਮਰ ਦਾ ਹੈ, ਜੋ ਇਕ ਅਮਰੀਕੀ ਨਾਗਰਿਕ ਦੇ ਮਾਪੇ, ਭੈਣ ਦੀ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਭਰਾ ਇੱਕ ਹਰੇ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰੋ."
@@ -1013,7 +1013,7 @@ pa:
   nav_go: "ਜਾਓ"
   nav_contact: "ਸੰਪਰਕ"
   Nav_helm_me: "ਬੇਨਤੀ ਮਦਦ"
-  here_are_results: "% S ਅਤੇ ਆਪਣੀ ਭਾਸ਼ਾ:: ਇੱਥੇ ਸਾਨੂੰ ਆਪਣੇ ਟਿਕਾਣੇ ਲਈ ਪਾਇਆ ਨਤੀਜੇ ਹਨ%s"
+  here_are_results: "_ ਅਤੇ ਆਪਣੀ ਭਾਸ਼ਾ:: ਇੱਥੇ ਸਾਨੂੰ ਆਪਣੇ ਟਿਕਾਣੇ ਲਈ ਪਾਇਆ ਨਤੀਜੇ ਹਨ __"
   please_wait: "ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ .."
 bs:
   question_1_sub_1_option_1: "Da, ja pokušavam da sponzor član obitelji"
@@ -1078,7 +1078,7 @@ bs:
   nav_go: "Ići"
   nav_contact: "Kontakt"
   Nav_helm_me: "Upit Pomoć"
-  here_are_results: "Ovo su rezultati koje smo našli za vašu lokaciju:%s i svoj jezik:%s"
+  here_are_results: "Ovo su rezultati koje smo našli za vašu lokaciju: _ i svoj jezik: __"
   please_wait: "Please Wait .."
 es:
   question_1_sub_1_option_2: "No, no estoy tratando de apadrinar a un miembro de la familia"
@@ -1142,7 +1142,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 es:
   question_2: "¿Es usted un residente legal permanente (tarjeta verde)?"
@@ -1205,7 +1205,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 es:
   question_2_info: "Un residente legal permanente (LPR) o &quot;green card&quot; es una persona que no es un ciudadano de los EE.UU., pero está residiendo el en los EE.UU. como un residente permanente legal."
@@ -1267,7 +1267,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 es:
   question_2_option_1: "Sí, soy un residente permanente legal (LPR)"
@@ -1328,7 +1328,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 es:
   question_2_option_2: "No, yo no soy un residente permanente legal (LPR)"
@@ -1388,7 +1388,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 es:
   question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
@@ -1447,7 +1447,7 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación: _ y su idioma: __"
   please_wait: "Por Favor Espere .."
 hy:
   question_2_sub_1_info: "Գործընթացը դառնում է ԱՄՆ քաղաքացի, որը կոչվում է ձեռքբերման: Շատ մարդիկ պետք է Legal մշտական ​​բնակիչները (LPRs կամ կանաչ քարտապաններին) հինգ տարի, մինչեւ դիմելու հպատակագրել. Որոշ LPRs իրավասու բանից հետո, երբ երեք տարի. Կան հատուկ կանոնները անդամների ամերիկյան ռազմական եւ նրանց ընտանիքներին:"
@@ -1505,5 +1505,5 @@ hy:
   nav_go: "Գնալ"
   nav_contact: "Հետադարձ կապ"
   Nav_helm_me: "Ծանուցման վերնագիրը: Օգնություն"
-  here_are_results: "Ահա դրանց արդյունքները, որ մենք found for ձեր գտնվելու վայրը:%s, եւ ձեր լեզուն:%s"
+  here_are_results: "Ահա դրանց արդյունքները, որ մենք գտնվել Ձեր Որտեղից: _ եւ ձեր լեզուն: __"
   please_wait: "Խնդրում ենք սպասել ..."

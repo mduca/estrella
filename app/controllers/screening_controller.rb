@@ -13,6 +13,7 @@ class ScreeningController < ApplicationController
 		session[:path_id] = path.id
 		session[:locale] = params[:locale]
 		session[:localization] = params[:localization] # zipcode
+		session[:state] = params[:state]
 		redirect_to action: :question_1
 
 	end

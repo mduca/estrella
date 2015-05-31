@@ -1,3 +1,6 @@
+require 'pp'
+require 'open-uri'
+require 'net/http'
 class ResultsController < ApplicationController
 	layout 'guided'
 	before_filter :get_current_path
@@ -73,6 +76,27 @@ class ResultsController < ApplicationController
 	end
 
 
+	#convert query address into a zipcode.
+	#
+	#we need this when the user provided something
+	#that is NOT a zipcode
+	#uses google's api to attempt to conver text address into
+	#gps location 
+
+	# i.e: Berkeley, CA into 37.8715926,-122.272747
+
+	def query_address2latlng(query_address)
+		la_clave_esa = "AIzaSyBtlkF4i2Mmv33" + "uVc4aVTA5JT94-eEnRTo"
+		geocode_url = "https://maps.googleapis.com/maps/api/geocode/json?address="+query_address+"&key=" + la_clave_esa
+		geocode_uri = URI.parse(geocode_url)
+		geocode_response = Net::HTTP.get_response(geocode_uri)
+		geocode_hash = JSON.parse geocode_response.body
+		#pp geocode_hash
+		lat = geocode_hash["results"][0]["geometry"]["location"]["lat"]
+		lng = geocode_hash["results"][0]["geometry"]["location"]["lng"]
+		return lat.to_s + "," + lng.to_s
+	end
+
 	def index
 		#Fetch zipcode from Session
 		my_current_zipcode = session[:localization]
@@ -83,7 +107,6 @@ class ResultsController < ApplicationController
 		#
 		#parameters = "legalAreas=" + session[:legalAreas]
 		#parameters += "&legalServices=" +  session[:legalServices]
-	
 
 		parameters = ""
 		
@@ -92,17 +115,15 @@ class ResultsController < ApplicationController
 		parameter_name = ""
 		if is_zipcode? my_current_zipcode then
 			#The user provided a zipcode.
-			parameter_name = "zipCode"
+			parameter_request = "zipCode=" + my_current_zipcode
 		else
-			#the user provided something
-			#that is NOT a zipcode
-			#use google's api to attempt to conver into zipcode
-
-
+			query_address = URI::encode(my_current_zipcode + "," + session[:state])
+			latlng = query_address2latlng(query_address)
+			parameter_request = "gps=" + latlng
+			#puts("lat:" + lat.to_s + " lng:" + lng.to_s)
 		end
 
-
-		uri = URI.parse(base + "?format=json&auth_token=E564A05852E91F84037F1196E45BABC5&"+parameter_name+"="+my_current_zipcode + "&languages=" + my_language + parameters)
+		uri = URI.parse(base + "?format=json&auth_token=E564A05852E91F84037F1196E45BABC5&"+parameter_request+"&languages=" + my_language + parameters)
 
 		response = Net::HTTP.get_response(uri)
 		hash = JSON.parse response.body[13 .. -4]
@@ -112,8 +133,22 @@ class ResultsController < ApplicationController
 
 		@my_current_zipcode = my_current_zipcode
 		doc = I18n.t(:here_are_results)
+		doc = fix_format_string(doc)
 		# "results for location %s and language %s "
 		@results_message = sprintf(doc, @my_current_zipcode, @my_language)
+	end
+
+	# convert:
+	# "results for location _ and language __ "
+	# into
+	# "results for location %s and language %s "
+	#
+	# we need this since google translate doesn't like %s and
+	# will convert %s into whatever it thinks, anything, but %s
+	# when translated in korean (KO) and other languages
+	#
+	def fix_format_string(fmt)
+			fmt.gsub("__","%s").gsub("_","%s")
 	end
 
 	def organization
