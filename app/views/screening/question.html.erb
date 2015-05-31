@@ -1,3 +1,10 @@
+<script>
+//some languages require rtl
+document.body.dir="<%= ApplicationController.site_direction(I18n.locale) %>";
+console.log("<%=I18n.locale %>");
+console.log("<%=ApplicationController.site_direction(I18n.locale) %>");
+</script>
+
 <div class="container">
 	
 <div class="row">
@@ -36,7 +43,7 @@
 			</div>
 			<div class="col-xs-6">
 				<input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
-				<button type="submit" class="btn btn-success"><%= I18n.t(:nav_go) %></button>
+				<button type="submit" class="btn btn-success"><%= I18n.t(:nav_next) %></button>
 			</div>
 		</div>
 
