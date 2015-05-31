@@ -40,6 +40,11 @@ function i18n(lang, text){
 function functionCall(obj){
   jData =  obj;
 }
+//TODO put actual language list
+function languageList(){
+  return [{'1':'English','2':'Spanish'}];
+}
+
 function item2html(item){
 
 
@@ -58,15 +63,17 @@ function render(jData){
   document.getElementById("org_list").innerHTML = dx;
 
 }
-function getData(){
+function fetch_organization_list(){
+  ajax("./api.json",function(x){eval(x);render(jData)});
+}
+function ajax(url,func){
 
   var xmlhttp = new XMLHttpRequest();
-  var url = "./api.json";
 
   xmlhttp.onreadystatechange = function() {
       if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
           //var myArr = JSON.parse(xmlhttp.responseText);
-          eval(xmlhttp.responseText);
+          func(xmlhttp.responseText);
       }
       if (xmlhttp.readyState == 4 && xmlhttp.status != 200) {
           //var myArr = JSON.parse(xmlhttp.responseText);
@@ -75,4 +82,5 @@ function getData(){
   }
   xmlhttp.open("GET", url, true);
   xmlhttp.send();
+
 }
