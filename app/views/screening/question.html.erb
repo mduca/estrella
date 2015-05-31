@@ -46,13 +46,13 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 </style>
 
 <div class="container">
-	
+	<!--
 <div class="row">
 	<div class="col-xs-12">
 		<a style='font-size:24pt' href="#" onclick='history.back()'> &#8592; </a>
 	</div>
 </div>
-
+-->
 <div class="row">
 
 	<form action="" method="post">
@@ -79,7 +79,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 
 		<div class="row row-centered">
 			<div class="col-xs-5">
-				<a href="#" class="btn btn-default"><%= I18n.t(:nav_back) %> </a>
+				<a href="#" onclick='history.back()' class="btn btn-default"><%= I18n.t(:nav_back) %> </a>
 			</div>
 			<div class="col-xs-5" style="text-align:right">
 				<input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
