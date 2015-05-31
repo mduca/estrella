@@ -5,6 +5,19 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 //console.log("<%=ApplicationController.site_direction(params[:locale]) %>");
 </script>
 
+<style>
+  .row-centered {
+    text-align: center;
+  }
+
+  .col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+  }
+</style>
+
 <div class="container">
 	
 <div class="row">
@@ -13,7 +26,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 	</div>
 </div>
 
-<div class="row">
+<div class="row row-centered">
 
 	<form action="" method="post">
 
@@ -51,7 +64,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 
 </div>
 
-<div class="row">
+<div class="row row-centered">
 	<div class="col-xs-3"><i class="fa fa-info"></i></div>
 	<div class="col-xs-9"><%=t @info %></div>
 </div>
