@@ -1,5 +1,4 @@
 class WelcomeController < ApplicationController
-	helper DirectionHelper
   def index
 		@site_direction = ApplicationController.site_direction(params[:locale])
 		

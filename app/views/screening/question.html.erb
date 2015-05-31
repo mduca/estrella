@@ -1,8 +1,8 @@
 <script>
 //some languages require rtl
-document.body.dir="<%= ApplicationController.site_direction(I18n.locale) %>";
-console.log("<%=I18n.locale %>");
-console.log("<%=ApplicationController.site_direction(I18n.locale) %>");
+document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>";
+//console.log("<%=I18n.locale %>");
+//console.log("<%=ApplicationController.site_direction(params[:locale]) %>");
 </script>
 
 <div class="container">

@@ -1,12 +1,12 @@
 <script>
 //some languages require rtl
-document.body.dir="<%= ApplicationController.site_direction(I18n.locale) %>";
+document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>";
 </script>
 <div class="container">
 	
 	<div class="row">
 		<div class="col-xs-12">
-			<h1>Here are the results we found for you.</h1>
+						<h1><%= I18n.t(:here_are_results) %></h1>
 		</div>
 	</div>
 
@@ -20,7 +20,7 @@ document.body.dir="<%= ApplicationController.site_direction(I18n.locale) %>";
   								<% end %>
   						<br/><%= organization["title"] %></td>
   						<td>15min</td>
-  						<td><a href="/results/<%= organization["id"] %>" class="btn btn-success">Contact</a></td>
+							<td><a href="/results/<%= organization["id"] %>" class="btn btn-success"><%= I18n.t("nav_contact") %></a></td>
   					</tr>
 
   				<% end %>

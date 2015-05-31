@@ -1,6 +1,22 @@
 <script>
 //some languages require rtl
 document.body.dir="<%= @site_direction %>";
+/**
+* find_me fill in location input with latlon coordinates
+*/
+function find_me(){
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        alert("Geolocation is not supported by this browser.");
+    }
+}
+function showPosition(position) {
+    var v = 'lat:' + position.coords.latitude;
+    v += " lon: " + position.coords.longitude;
+    document.getElementById("location").value = v;
+}
+
 </script>
 
 <style>
@@ -63,7 +79,7 @@ document.body.dir="<%= @site_direction %>";
 			    <label for="localization"><%= I18n.t(:where_do_you_live) %></label>
 			    <div class="input-group">
 			      <input type="text" class="form-control" id="localization" name="localization" placeholder="<%= I18n.t(:enter_zip) %>">
-			      <div id="location-arrow" class="input-group-addon"><i class="fa fa-location-arrow"></i></div>
+			      <div id="location-arrow" class="input-group-addon"><i style='cursor:pointer' onclick='find_me()' class="fa fa-location-arrow"></i></div>
 			    </div>
 			  </div>
 			  <input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
