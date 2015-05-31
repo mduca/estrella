@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :results
+  resources :contacts
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
