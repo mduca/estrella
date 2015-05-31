@@ -8,7 +8,7 @@
 				  <div class="col-xs-5"><label for="language"><%= I18n.t(:select_language) %></label></div>
 			    
 			    <div class="col-xs-7">
-				  <select class="form-control" onchange='location.href = "?locale=" + this.value'>
+				  <select class="form-control" name="locale" onchange='location.href = "?locale=" + this.value'>
 					<option value='en' <%= "selected" if params["locale"] == "en" %> >English</option>
 					<option value='es' <%= "selected" if params["locale"] == "es" %> >Español</option>
 				</select>
@@ -35,10 +35,12 @@
 			  <div class="form-group">
 			    <label for="localization"><%= I18n.t(:where_do_you_live) %></label>
 			    <div class="input-group">
-			      <input type="text" class="form-control" id="localization" placeholder="<%= I18n.t(:enter_zip) %>">
+			      <input type="text" class="form-control" id="localization" name="localization" placeholder="<%= I18n.t(:enter_zip) %>">
 			      <div id="location-arrow" class="input-group-addon"><i class="fa fa-location-arrow"></i></div>
 			    </div>
 			  </div>
+			  <input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
+			  <input name="locale" type="hidden" value="<%= params[:locale] %>" />
 			  <button type="submit" class="btn btn-success"><%= I18n.t(:start) %></button>
 		</form>
 	</div>

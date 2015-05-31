@@ -6,6 +6,18 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
  
 	def set_locale
-	  I18n.locale = params[:locale] || I18n.default_locale
+	  I18n.locale = session[:locale] || params[:locale] || I18n.default_locale
+	end
+
+	private
+
+	def get_current_path
+
+		if session[:path_id]
+			@current_path = Path.find(session[:path_id])
+		else
+			redirect_to :root
+		end
+
 	end
 end

@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  filter_zipcode: MyString
+  filter_language: MyString
+  filter_area: MyString
+  filter_service: MyString
+  question_localization: MyString
+  question_1: MyString
+  question_1_sub_1: MyString
+  question_2: MyString
+  question_2_sub_1: MyString
+  question_3: MyString
+  question_4: MyString
+  question_5: MyString
+  question_6: MyString
+  question_7: MyString
+  question_8: MyString
+  question_9: MyString
+
+two:
+  filter_zipcode: MyString
+  filter_language: MyString
+  filter_area: MyString
+  filter_service: MyString
+  question_localization: MyString
+  question_1: MyString
+  question_1_sub_1: MyString
+  question_2: MyString
+  question_2_sub_1: MyString
+  question_3: MyString
+  question_4: MyString
+  question_5: MyString
+  question_6: MyString
+  question_7: MyString
+  question_8: MyString
+  question_9: MyString

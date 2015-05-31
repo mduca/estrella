@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-
+  get 'screening' => 'screening#index'
   get 'screening/question_1' => 'screening#question_1'
   post 'screening/question_1' => 'screening#question_1'
   get 'screening/question_1_sub_1' => 'screening#question_1_sub_1'
@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
 
-  get 'results/index'
+  get 'results' => 'results#index'
   get 'results/:id' => 'results#organization'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,5 +1,6 @@
 class ResultsController < ApplicationController
 	layout 'guided'
+	before_filter :get_current_path
 
 	def index
 

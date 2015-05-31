@@ -1,5 +1,21 @@
 class ScreeningController < ApplicationController
-	 layout "guided"
+	layout "guided"
+	before_filter :get_current_path, except: [:index]
+
+	def index
+
+		path = Path.new
+
+		path.question_localization = params[:localization]
+		path.filter_language = params[:locale]
+		path.save
+
+		session[:path_id] = path.id
+		session[:locale] = params[:locale]
+
+		redirect_to action: :question_1
+
+	end
   
 	def question_1
 
@@ -11,11 +27,14 @@ class ScreeningController < ApplicationController
 			render "screening/question"
 
 		else
+			@current_path.question_1 = params["answer"]
+			@current_path.save
+
 			if params["answer"] == "question_1_option_1"
 
 				redirect_to action: :question_1_sub_1
 			else
-				redirect_to :root
+				redirect_to action: :question_2
 			end
 
 		end
@@ -32,11 +51,14 @@ class ScreeningController < ApplicationController
 			render "screening/question"
 
 		else
-			if params["answer"] == "question_1_option_1"
-
-				redirect_to action: :question_1_sub_1
+			@current_path.question_1_sub_1 = params["answer"]
+			@current_path.save
+			if params["answer"] == "question_1_sub_1_option_1"
+				@current_path.filter_area = "6"
+				@current_path.save
+				redirect_to "/results"
 			else
-				redirect_to :root
+				redirect_to action: :question_4
 			end
 
 		end
@@ -63,9 +85,6 @@ class ScreeningController < ApplicationController
 		end
 	end
 
-
-
-	end
 
 	def question_2_sub_1
 		unless request.post?
@@ -111,8 +130,6 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
-
 	def question_4
 
 		unless request.post?
@@ -134,7 +151,7 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
+
 
 	def question_5
 
@@ -157,7 +174,7 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
+
 
 	def question_6
 
@@ -180,7 +197,7 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
+
 
 	def question_7
 
@@ -203,7 +220,7 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
+	
 
 	def question_8
 
@@ -226,7 +243,7 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
+
 
 	def question_9
 
@@ -249,7 +266,7 @@ class ScreeningController < ApplicationController
 	end
 
 
-	end
+
 
 	def question_9_sub_1
 
