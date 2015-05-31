@@ -27,6 +27,15 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
   form {
     padding-bottom: 10px;
   }
+
+  .radio {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  question {
+    padding-bottom: 10px;
+  }
 </style>
 
 <div class="container">
@@ -37,28 +46,28 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 	</div>
 </div>
 
-<div class="row row-centered">
+<div class="row">
 
 	<form action="" method="post">
 
-		<div class="row">	
-		<div class="col-xs-12 question">
-      <h1><%=t @question %></h1>
-		</div>
-		</div>
+		<div class="row row-centered">	
+      <div class="col-xs-12 question">
+        <h1><%=t @question %></h1>
+      </div>
+      </div>
 
-		<div class="row">
-		<div class="col-xs-12 options">
+      <div class="row row-centered">
+      <div class="col-xs-12 options">
 
-			<% @options.each do |option| %>
-				<div class="radio">
-				  <label>
-              <input type="radio" name="answer" id="answer" value="<%= option.downcase %>">
-              <%=t option %>
-				  </label>
-				</div>
-			<% end %>
-		</div>
+        <% @options.each do |option| %>
+          <div class="radio">
+            <label>
+                <input type="radio" name="answer" id="answer" value="<%= option.downcase %>">
+                <%=t option %>
+            </label>
+          </div>
+        <% end %>
+      </div>
 		</div>
 
 		<div class="row">
