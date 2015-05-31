@@ -33,9 +33,16 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
     padding-bottom: 5px;
   }
 
-  question {
+  .question {
     padding-bottom: 10px;
   }
+
+  .navbar-brand, img {
+    padding-bottom: 25px;
+    height: 75px;
+  }
+
+  .
 </style>
 
 <div class="container">
@@ -70,11 +77,11 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
       </div>
 		</div>
 
-		<div class="row">
-			<div class="col-xs-6">
+		<div class="row row-centered">
+			<div class="col-xs-5">
 				<a href="#" class="btn btn-default"><%= I18n.t(:nav_back) %> </a>
 			</div>
-			<div class="col-xs-6" style="text-align:right">
+			<div class="col-xs-5" style="text-align:right">
 				<input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
 				<button type="submit" class="btn btn-success"><%= I18n.t(:nav_next) %></button>
 			</div>
@@ -85,9 +92,11 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 </div>
 
 
-<div class="row panel panel-footer clearfix">
-  <div class="footer-info col-xs-1"><h1><i class="fa fa-info"></i></h1></div>
-	<div class="footer-info col-xs-11"><%=t @info %></div>
-</div>
+<footer class="footer">
+  <div class="row panel panel-footer ">
+    <div class="footer-info col-xs-1"><h1><i class="fa fa-info"></i></h1></div>
+    <div class="footer-info col-xs-11"><%=t @info %></div>
+  </div>
+</footer>
 
 </div>
