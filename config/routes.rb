@@ -1,10 +1,42 @@
 Rails.application.routes.draw do
 
   get 'screening' => 'screening#index'
+
+
   get 'screening/question_1' => 'screening#question_1'
-  post 'screening/question_1' => 'screening#question_1'
   get 'screening/question_1_sub_1' => 'screening#question_1_sub_1'
+  get 'screening/question_2' => 'screening#question_2'
+  get 'screening/question_2_sub_1' => 'screening#question_2_sub_1'
+  get 'screening/question_2_sub_2' => 'screening#question_2_sub_2'
+  get 'screening/question_3' => 'screening#question_3'
+  get 'screening/question_4' => 'screening#question_4'
+  get 'screening/question_5' => 'screening#question_5'
+  get 'screening/question_6' => 'screening#question_6'
+  get 'screening/question_7' => 'screening#question_7'
+  get 'screening/question_8' => 'screening#question_8'
+  get 'screening/question_9' => 'screening#question_9'
+  get 'screening/question_9_sub_1' => 'screening#question_9_sub_1'
+  get 'screening/question_9_sub_2' => 'screening#question_9_sub_2'
+  get 'screening/question_9_sub_3' => 'screening#question_9_sub_3'
+  get 'screening/question_9_sub_4' => 'screening#question_9_sub_4'
+
+
+  post 'screening/question_1' => 'screening#question_1'
   post 'screening/question_1_sub_1' => 'screening#question_1_sub_1'
+  post 'screening/question_2' => 'screening#question_2'
+  post 'screening/question_2_sub_1' => 'screening#question_2_sub_1'
+  post 'screening/question_2_sub_2' => 'screening#question_2_sub_2'
+  post 'screening/question_3' => 'screening#question_3'
+  post 'screening/question_4' => 'screening#question_4'
+  post 'screening/question_5' => 'screening#question_5'
+  post 'screening/question_6' => 'screening#question_6'
+  post 'screening/question_7' => 'screening#question_7'
+  post 'screening/question_8' => 'screening#question_8'
+  post 'screening/question_9' => 'screening#question_9'
+  post 'screening/question_9_sub_1' => 'screening#question_9_sub_1'
+  post 'screening/question_9_sub_2' => 'screening#question_9_sub_2'
+  post 'screening/question_9_sub_3' => 'screening#question_9_sub_3'
+  post 'screening/question_9_sub_4' => 'screening#question_9_sub_4'
 
   get 'welcome/index'
 
