@@ -6,6 +6,10 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 </script>
 
 <style>
+	.radio label, .checkbox label {
+		font-size: 14pt;
+	}
+
   .row-centered {
     text-align: center;
   }
@@ -44,7 +48,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
   body[dir=rtl] * input[type=radio]{
     margin-right: -30px;
   }
-  .
+  
 </style>
 
 <div class="container">
@@ -66,12 +70,12 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
       </div>
 
       <div class="row row-centered">
-      <div class="col-xs-12 options">
+      <div class="col-xs-12 options" style='margin-top:40px;margin-bottom:40px;'>
 
         <% @options.each do |option| %>
           <div class="radio">
             <label>
-                <input type="radio" name="answer" id="answer" value="<%= option.downcase %>">
+                <input required type="radio" name="answer" id="answer" value="<%= option.downcase %>">
                 <%=t option %>
             </label>
           </div>
@@ -94,7 +98,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 </div>
 
 
-<footer class="footer">
+<footer class="footer" style='margin-top:40px'>
   <div class="row panel panel-footer ">
     <div class="footer-info col-xs-1"><h1><i class="fa fa-info"></i></h1></div>
     <div class="footer-info col-xs-11"><%=t @info %></div>
