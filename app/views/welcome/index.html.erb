@@ -249,8 +249,10 @@ function ajax(url,func){
 			    </div>
 			  </div>
 			  <input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
-			  <input name="locale" type="hidden" value="<%= params[:locale] || "en" %>" />
-			  <button type="submit" class="btn btn-success"><%= I18n.t(:start) %></button>
+				<input name="locale" type="hidden" value="<%= params[:locale] || "en" %>" />
+				<div style='text-align:right'>
+					<button type="submit" class="btn btn-success"><%= I18n.t(:start) %></button>
+				</style>
 		</form>
 	</div>
 
