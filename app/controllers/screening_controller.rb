@@ -7,7 +7,10 @@ class ScreeningController < ApplicationController
 		path = Path.new
 
 		path.question_localization = params[:localization]
+		path.legal_areas = ""
+		path.legal_services = ""
 		path.filter_language = params[:locale]
+
 		path.save
 
 		session[:path_id] = path.id

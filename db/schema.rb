@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150531041857) do
+ActiveRecord::Schema.define(version: 20150531124908) do
 
   create_table "paths", force: :cascade do |t|
     t.string   "filter_zipcode"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 20150531041857) do
     t.string   "question_9"
     t.datetime "created_at",            null: false
     t.datetime "updated_at",            null: false
+    t.string   "legal_areas"
+    t.string   "legal_services"
   end
 
 end

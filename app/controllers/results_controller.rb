@@ -110,6 +110,14 @@ class ResultsController < ApplicationController
 		#parameters += "&legalServices=" +  session[:legalServices]
 
 		parameters = ""
+		@current_path = Path.find(session[:path_id])
+		if @current_path.legal_areas != "" then
+			parameters += "&legalAreas" + @current_path.legalAreas
+		end
+		if @current_path.legal_services != "" then
+			parameters += "&legalServices" + @current_path.legalServices
+		end
+
 		
 		#END TODO
 
