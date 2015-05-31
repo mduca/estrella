@@ -1,6 +1,81 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
 <script>
 //some languages require rtl
 document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>";
+
+
+// yes, all these variables are global, I'm, sorry.
+var map; 
+var geo_markers = [];
+var geo_windows = [];
+
+
+function decodeHtml(html) {
+    var txt = document.createElement("textarea");
+    txt.innerHTML = html;
+    return txt.value;
+}
+
+
+global_markers = eval(decodeHtml("<%= @markers %>"));
+function get_markers(){
+  return global_markers;
+}
+
+
+function initialize() {
+  var myLatlng = new google.maps.LatLng(<%= @latlng %>);
+  var mapOptions = {
+    zoom: 11,
+    center: myLatlng
+  }
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+	var markers = get_markers();
+
+	//todo change (I'm hosting the icon temporarily):
+	//var ico = "http://www.greenskymedia.com/wp-content/images/non-profit-icon.png"
+	//requires full url
+	var ico = "http://proaplicaciones.com/the-icon.png"
+  for(var m=0;m<markers.length;m++){
+    geo_markers[m] = new google.maps.Marker({
+        position: new google.maps.LatLng(markers[m]["lat"],markers[m]["lon"]),
+        map: map,
+				title: markers[m]["name"],
+				icon: ico,
+				url: markers[m]["url"]
+});
+
+ //Content structure of info Window for the Markers
+        var contentString = $('<div class="marker-info-win">'+
+        '<div class="marker-inner-win"><span class="info-content">'+
+				'<h3 class="marker-heading">'+markers[m]["name"]+'</h3>'+
+				"<a href='tel:"+markers[m]["phone"]+"'>"+markers[m]["phone"]+"</a><br/>"+
+				"<a href='mailto:"+markers[m]["email"]+"'>"+markers[m]["email"]+"</a>"+
+        '</span>'+
+        '</div></div>');
+           
+        geo_windows[m] = new google.maps.InfoWindow();
+        geo_windows[m].setContent(contentString[0]);
+				geo_markers[m]._the_window_thing = geo_windows[m]
+        //add click event listener to marker which will open infoWindow          
+				google.maps.event.addListener(geo_markers[m], 'click', function() {
+								// click on marker opens info window
+								// the THIS object refers to the marker
+								
+								this._the_window_thing.open(map,this); 
+								//
+								//geo_windows[m].open(map,this); 
+				});
+
+
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
 </script>
 <div class="container">
 	
@@ -9,6 +84,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 			<h1><%= @results_message %></h1>
 		</div>
 	</div>
+
 
 	<div class="row">
 		<div class="col-xs-12">
@@ -22,11 +98,23 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 									<% end %>
 							</td>
 							<td>15min</td>
-							<td><a href="/results/<%= organization["id"] %>" class="btn btn-success"><%= I18n.t("nav_contact") %></a></td>
+							<!-- 
+							TODO: create full contact page
+							/results/<%= organization["id"] %>
+								-->
+							<td><a href="tel:<%= organization["pbn:contact"]["phone"] %>" class="btn btn-success"><%= I18n.t("nav_contact") %></a></td>
 						</tr>
 
 					<% end %>
 			</table>
+		</div>
+	</div>
+
+	
+	<!-- MAP OBJECT -->
+	<div class="row">
+		<div class="col-xs-12" style='height:400px'>
+			<div id=map-canvas style='height:100%'></div>
 		</div>
 	</div>
 

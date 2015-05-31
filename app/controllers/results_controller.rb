@@ -1,10 +1,11 @@
-require 'pp'
-require 'open-uri'
-require 'net/http'
+require 'json' # for markers
+require 'pp'  # for debugging
+require 'open-uri' # for api request
+require 'net/http' # I don't think we need this one.
+
 class ResultsController < ApplicationController
 	layout 'guided'
 	before_filter :get_current_path
-
 
 	# 
 	# this functions takes EN and returns English
@@ -112,6 +113,9 @@ class ResultsController < ApplicationController
 		
 		#END TODO
 
+		#hardcoded for how
+		@latlng =  "37.7749295,-122.4194155"
+
 		parameter_name = ""
 		if is_zipcode? my_current_zipcode then
 			#The user provided a zipcode.
@@ -126,7 +130,7 @@ class ResultsController < ApplicationController
 		uri = URI.parse(base + "?format=json&auth_token=E564A05852E91F84037F1196E45BABC5&"+parameter_request+"&languages=" + my_language + parameters)
 
 		response = Net::HTTP.get_response(uri)
-		hash = JSON.parse response.body[13 .. -4]
+		hash = JSON.parse response.body[13 .. -4] # remove funcCall
 
 		@results = hash["items"]
 		@my_language = isolang2name(session[:locale])
@@ -136,6 +140,27 @@ class ResultsController < ApplicationController
 		doc = fix_format_string(doc)
 		# "results for location %s and language %s "
 		@results_message = sprintf(doc, @my_current_zipcode, @my_language)
+
+		@markers = []
+		@results.each do |organization|
+			rec = {}
+			rec["name"] = organization["title"]
+			rec["lon"] = organization["pbn:address"]["longitude"]
+			rec["lat"] = organization["pbn:address"]["latitude"]
+			rec["url"] = organization["link"]
+			rec["phone"] = organization["pbn:contact"]["phone"]
+			rec["email"] = organization["pbn:contact"]["email"]
+			
+			@markers << rec
+		end
+
+		#print markers
+		#@markers << {"lon"=>-25.363882,"lat"=>131.044922,"name"=>"test"}
+		#@markers << {"lon"=>-24.363882,"lat"=>131.044922,"name"=>"test"}
+		#@markers << {"lon"=>-23.363882,"lat"=>131.044922,"name"=>"test"}
+		#@markers << {"lon"=>-22.363882,"lat"=>131.044922,"name"=>"test"}
+		@markers = @markers.to_json
+
 	end
 
 	# convert:
