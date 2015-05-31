@@ -16,6 +16,17 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
     text-align: left;
     margin-right: -4px;
   }
+
+  .footer-info {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+  }
+
+  form {
+    padding-bottom: 10px;
+  }
 </style>
 
 <div class="container">
@@ -32,7 +43,7 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 
 		<div class="row">	
 		<div class="col-xs-12 question">
-			<%=t @question %>
+      <h1><%=t @question %></h1>
 		</div>
 		</div>
 
@@ -42,8 +53,8 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 			<% @options.each do |option| %>
 				<div class="radio">
 				  <label>
-				    <input type="radio" name="answer" id="answer" value="<%= option.downcase %>">
-				    <%=t option %>
+              <input type="radio" name="answer" id="answer" value="<%= option.downcase %>">
+              <%=t option %>
 				  </label>
 				</div>
 			<% end %>
@@ -64,9 +75,10 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 
 </div>
 
-<div class="row row-centered">
-	<div class="col-xs-3"><i class="fa fa-info"></i></div>
-	<div class="col-xs-9"><%=t @info %></div>
+
+<div class="row panel panel-footer clearfix">
+  <div class="footer-info col-xs-1"><h1><i class="fa fa-info"></i></h1></div>
+	<div class="footer-info col-xs-11"><%=t @info %></div>
 </div>
 
 </div>
