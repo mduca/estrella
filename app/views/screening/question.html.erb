@@ -1,0 +1,55 @@
+<div class="container">
+	
+<div class="row">
+	<div class="col-xs-12">
+		<a href="#" >< BACK</a>
+	</div>		
+</div>
+
+<div class="row">
+
+	<form action="" method="post">
+
+		<div class="row">	
+		<div class="col-xs-12 question">
+			<%=t @question %>
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-xs-12 options">
+
+			<% @options.each do |option| %>
+				<div class="radio">
+				  <label>
+				    <input type="radio" name="answer" id="answer" value="<%= option.downcase %>">
+				    <%=t option %>
+				  </label>
+				</div>
+			<% end %>
+		</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-6">
+				<a href="#" class="btn btn-default">BACK</a>
+			</div>
+			<div class="col-xs-6">
+				<input name="<%= request_forgery_protection_token.to_s %>" type="hidden" value="<%= form_authenticity_token %>" />
+				<button type="submit" class="btn btn-success">NEXT</button>
+			</div>
+		</div>
+
+	</form>
+
+</div>
+
+<div class="row">
+	<div class="col-xs-3"><i class="fa fa-info"></i></div>
+	<div class="col-xs-9"><%=t @info %></div>
+</div>
+
+
+
+
+</div>

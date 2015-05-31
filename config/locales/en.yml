@@ -21,3 +21,18 @@
 
 en:
   hello: "Hello world"
+  question_1: "Yo that's a question!?"
+  question_1_option_1: "Yes"
+  question_1_option_2: "No"
+  question_1_info: "This is the info bubble."
+
+  question_1_sub_1: "Yo that's a NEW question!?"
+  question_1_sub_1_option_1: "Yes"
+  question_1_sub_1_option_2: "No"
+  question_1_sub_1_info: "This is the info bubble for the subquestion."
+
+es:
+  question_1: "Esta pregunta es en espanol?!"
+  question_1_option_1: "Si"
+  question_1_option_2: "No"
+  question_1_info: "Esta es la informacion bubble."

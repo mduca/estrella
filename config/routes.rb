@@ -3,6 +3,11 @@ Rails.application.routes.draw do
   resources :results
   resources :contacts
 
+  get 'screening/question_1' => 'screening#question_1'
+  post 'screening/question_1' => 'screening#question_1'
+  get 'screening/question_1_sub_1' => 'screening#question_1_sub_1'
+  post 'screening/question_1_sub_1' => 'screening#question_1_sub_1'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

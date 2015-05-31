@@ -1,32 +1,52 @@
 class ScreeningController < ApplicationController
 
 	def question_1
-		@question = :question_1
-		@options = ["Yes", "No"]
-		@info = "the info text"
-		render: question_template
+		unless request.post?
 
-		if request.post?
-			if params["answer"] == "yes"
-				redirect_to: question1sub2
+			@question = :question_1  #locale key to get question string
+			@options = [:question_1_option_1, :question_1_option_2] #array of keys of options to get answers
+			@info = :question_1_info #locale key to get info
 
-				@current_path.question_1 = params["answer"]
 
-				# or final
-				@filter
-				redirect_to: result_page
+			render "screening/question"
+
+
+		else
+			if params["answer"] == "question_1_option_1"
+
+				redirect_to action: :question_1_sub_1
 			else
-
+				redirect_to :root
 			end
 
 		end
 	end
 
 	def question_1_sub_1
+		unless request.post?
+
+			@question = :question_1_sub_1  #locale key to get question string
+			@options = [:question_1_sub_1_option_1, :question_1_sub_1_option_2] #array of keys of options to get answers
+			@info = :question_1_sub_1_info #locale key to get info
+
+
+			render "screening/question"
+
+
+		else
+			if params["answer"] == "question_1_option_1"
+
+				redirect_to action: :question_1_sub_1
+			else
+				redirect_to :root
+			end
+
+		end
 
 	end
 
 	def question_2
+
 
 	end
 
