@@ -107,20 +107,23 @@ function ajax(url,func){
 				.capitalize option{
 					text-transform:capitalize;
 				}
-
+        
+        .navbar-brand, img {
+          padding-bottom: 25px;
+          height: 75px;
+        }
+        
 </style>
-<div class="container">
-	
-	<div class="row">
-		
-		<div class="col-xs-12">
-			<form>
-			  <div class="form-group row">
-				  <div class="col-xs-5"><label for="language"><%= I18n.t(:select_language) %></label></div>
-			    
-					<div class="col-xs-7">
 
-						<select class="capitalize form-control" name="locale" onchange='location.href = "?locale=" + this.value'>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header" style="width:100%">
+
+        <a class="navbar-brand col-xs-8"> 
+        <%= image_tag("estrella-logo-horizontal.svg", alt: "Estrella") %>
+      </a>
+      <div class='col-xs-4' style='padding:20px'>
+          <select style='min-width:120px' class="capitalize form-control" name="locale" onchange='location.href = "?locale=" + this.value'>
 								<option <%= "selected" if params["locale"] == "en" %> value='en'>english</option>
 								<option <%= "selected" if params["locale"] == "fr" %> value='fr'>français</option>
 								<option <%= "selected" if params["locale"] == "arb" %> value='arb'>العراقية</option>
@@ -138,16 +141,42 @@ function ajax(url,func){
 								<option <%= "selected" if params["locale"] == "pa" %> value='pa'>ਪੰਜਾਬੀ'</option>
 								<option <%= "selected" if params["locale"] == "bs" %> value='bs'>srpsko-hrvatski</option>
 						</select>
-				</div>
+          </div>
+          <!--
+       <ul class="nav navbar-nav navbar-right col-xs-2" >
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          -->
+    </div>
+  </div>
+</nav> 
+
+<div class="container">
+	
+	<div class="row">
+		
+		<div class="col-xs-12">
+			<form>
+			  <div class="form-group row">
+				  <div class="col-xs-5"><label for="language"><%= I18n.t(:select_language) %></label></div>
+			    
+					<div class="col-xs-7">
+
+							</div>
 			  </div>
 			</form>
 
 		</div>
 
-	</div>
-
-	<div class="row logo">
-		<center><%= image_tag("estrella-logo-horizontal.svg", alt: "Estrella logo") %></center>	
 	</div>
 
 	<div class="row">

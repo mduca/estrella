@@ -41,7 +41,9 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
     padding-bottom: 25px;
     height: 75px;
   }
-
+  body[dir=rtl] * input[type=radio]{
+    margin-right: -30px;
+  }
   .
 </style>
 
