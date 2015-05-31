@@ -18,7 +18,6 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   question_1: "Are you a U.S. citizen?"
   question_1_info: "You can become a U.S. citizen at birth or after birth. To become a U.S. citizen at birth you must have been born in the U.S. (or U.S. territories or outlying possessions). To become a U.S. citizen after birth you must naturalize or apply for “derived” or “acquired” citizenship through parents."
@@ -99,124 +98,8 @@ en:
   nav_go: "Go"
   nav_contact: "Contact"
   Nav_helm_me: "Request Help"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Here are the results we found for your location: %s and your language: %s"
+  please_wait: "Please Wait.."
 es:
   KEY: "CONTENIDO"
   question_1: "¿Es usted un ciudadano de EE.UU.?"
@@ -239,10 +122,6 @@ es:
   question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
   question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
   question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
-
-
-
-
   question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
   question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
   question_4_option_1: "Sí, estoy en proceso de deportación"
@@ -252,7 +131,6 @@ es:
   question_5_option_1: "Sí, soy una víctima de un crimen"
   question_5_option_2: "No, yo no soy una víctima del delito"
   question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
-
   question_6_option_1: "Sí, tengo un empleador abusivo"
   question_6_option_2: "No, yo no tengo un empleador abusivo"
   question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
@@ -272,17 +150,11 @@ es:
   question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
   question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
   question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
-
   question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
   question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
   question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
-
   question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
   question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
-
-
-
-
   select_language: "Seleccione un idioma"
   we_help_you: "Le ayudamos a encontrar ayuda legal."
   where_do_you_live: "Dónde vives?"
@@ -298,124 +170,8 @@ es:
   nav_go: "Ir"
   nav_contact: "Contacto"
   Nav_helm_me: "Solicitar ayuda"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
 fr:
   id: "CONTENU"
   question_1: "Êtes-vous un citoyen américain?"
@@ -438,10 +194,6 @@ fr:
   question_3_info: "Une personne qui a la citoyenneté américaine ou d'une «carte verte» (résidence permanente légale) peut aider certains membres de la famille reçoivent une carte verte aussi."
   question_3_option_1: "Oui, je dois un membre de la famille qui est un citoyen américain ou résident permanent légal"
   question_3_option_2: "Non, je ne ai pas un membre de la famille qui est un citoyen américain ou résident permanent légal"
-
-
-
-
   question_4: "Êtes-vous ou quelqu'un que vous connaissez est expulsé (dans la procédure de renvoi)?"
   question_4_info: "La déportation est l'enlèvement d'une personne des États-Unis quand ils ont été trouvés d'avoir violé les lois sur l'immigration."
   question_4_option_1: "Oui, je suis en procédure d'expulsion"
@@ -451,7 +203,6 @@ fr:
   question_5_option_1: "Oui, je suis victime d'un crime"
   question_5_option_2: "Non, je ne suis pas une victime de crime"
   question_6: "Avez-vous ou un membre de la famille proche avez un employeur abusif?"
-
   question_6_option_1: "Oui, je dois un employeur abusif"
   question_6_option_2: "Non, je ne ai pas un employeur abusif"
   question_7: "Avez-vous ou un membre de la famille proche avez un conjoint violent?"
@@ -471,17 +222,11 @@ fr:
   question_9_sub_1_option_1: "Oui, je suis arrivé dans le États-Unis avant le 15 Juin 2007,"
   question_9_sub_1_option_2: "Non, je suis arrivé dans le États-Unis après le 15 Juin, 2007"
   question_9_sub_2: "Avez-vous trouvé la États-Unis avant que vous atteigniez 16?"
-
   question_9_sub_2_option_1: "Oui, je suis venu au États-Unis avant mes 16 ans"
   question_9_sub_2_option_2: "Non, non, je suis venu à la États-Unis après avoir eu 16 ans"
   question_9_sub_3: "Le 15 Juin, 2012 Le saviez-vous ont un statut d'immigration valide?"
-
   question_9_sub_3_option_1: "Oui, je devais le statut d'immigration valide le 15 Juin, 2012"
   question_9_sub_3_option_2: "Non, je ne ai pas eu le statut d'immigration valide le 15 Juin, 2012"
-
-
-
-
   select_language: "Sélectionnez une langue"
   we_help_you: "Nous vous aidons à trouver de l'aide juridique."
   where_do_you_live: "Ou habites tu?"
@@ -497,127 +242,8 @@ fr:
   nav_go: "Aller"
   nav_contact: "Contact"
   Nav_helm_me: "Demande d'aide"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Voici les résultats que nous avons trouvés pour votre emplacement:%s et votre langue:%s"
+  please_wait: "S'il vous plaît Attendez .."
 arb:
   KEY: "CONTENT"
   question_1: "هل أنت مواطن أمريكي؟"
@@ -640,10 +266,6 @@ arb:
   question_3_info: "ويمكن للشخص الذي لديه الجنسية الأمريكية أو &quot;البطاقة الخضراء&quot; (الإقامة الدائمة القانونية) يساعد بعض أفراد الأسرة الحصول على البطاقة الخضراء للغاية."
   question_3_option_1: "نعم، لدي أحد أفراد الأسرة وهو مواطن أمريكي أو مقيم دائم قانوني"
   question_3_option_2: "لا، ليس لدي أحد أفراد الأسرة وهو مواطن أمريكي أو مقيم دائم قانوني"
-
-
-
-
   question_4: "هل أنت أو أي شخص تعرفه ترحيلهم (في إجراءات الترحيل)؟"
   question_4_info: "الترحيل هو إزالة شخص من الولايات المتحدة عندما تم العثور على انتهكوا قوانين الهجرة."
   question_4_option_1: "نعم، وأنا في إجراءات الترحيل"
@@ -653,7 +275,6 @@ arb:
   question_5_option_1: "نعم، أنا ضحية جريمة"
   question_5_option_2: "لا، أنا لست ضحية جريمة"
   question_6: "هل أنت أو أحد أفراد الأسرة المقربين يكون صاحب العمل المسيء؟"
-
   question_6_option_1: "نعم، لدي صاحب العمل المسيء"
   question_6_option_2: "لا، ليس لدي صاحب العمل المسيء"
   question_7: "هل أنت أو أحد أفراد الأسرة المقربين لها الزوج المسيء؟"
@@ -673,17 +294,11 @@ arb:
   question_9_sub_1_option_1: "نعم، لقد وصلت إلى الولايات المتحدة قبل 15 يونيو 2007"
   question_9_sub_1_option_2: "لا، أنا وصلت في الولايات المتحدة بعد 15 يونيو 2007"
   question_9_sub_2: "أتيت الى الولايات المتحدة قبل أن تحول 16؟"
-
   question_9_sub_2_option_1: "نعم، جئت إلى الولايات المتحدة قبل أن تحول 16"
   question_9_sub_2_option_2: "لا، لا جئت إلى الولايات المتحدة بعد أن تحولت 16"
   question_9_sub_3: "في 15 يونيو 2012 هل لديك وضع هجرة قانوني؟"
-
   question_9_sub_3_option_1: "نعم، كان لي حالة الهجرة صالح على 15 يونيو 2012"
   question_9_sub_3_option_2: "لا، لم يكن لدي حالة الهجرة صالح على 15 يونيو 2012"
-
-
-
-
   select_language: "اختيار اللغة"
   we_help_you: "نحن مساعدتك في العثور على المساعدة القانونية."
   where_do_you_live: "أين تعيش؟"
@@ -699,125 +314,8 @@ arb:
   nav_go: "اذهب"
   nav_contact: "اتصال"
   Nav_helm_me: "طلب مساعدة"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "وهنا النتائج وجدنا لموقعك:٪ الصورة واللغة:٪ الصورة"
+  please_wait: "يرجى الانتظار .."
 sq:
   KEY: "PËRMBAJTJA"
   question_1: "A jeni një qytetar i SH.B.A.?"
@@ -840,10 +338,6 @@ sq:
   question_3_info: "Një person i cili ka shtetësi amerikane, ose një &quot;Green Card&quot; (qëndrimit ligjor të përhershëm) mund të ndihmojë në disa anëtarë të familjes të marrë një kartë jeshile shumë."
   question_3_option_1: "Po, unë kam një anëtar i familjes i cili është një qytetar amerikan apo banor i ligjshëm i përhershëm"
   question_3_option_2: "Jo, unë nuk kam një anëtar i familjes i cili është një qytetar amerikan apo banor i ligjshëm i përhershëm"
-
-
-
-
   question_4: "Jeni ju ose dikush që ju e dini duke deportuar (në procedurat heqjen)?"
   question_4_info: "Dëbimi është largimi i një personi nga Shtetet e Bashkuara, kur ata janë gjetur të ketë shkelur ligjet e emigracionit."
   question_4_option_1: "Po, unë jam në procedurat e dëbimit"
@@ -853,7 +347,6 @@ sq:
   question_5_option_1: "Po, unë jam një viktimë e krimit"
   question_5_option_2: "Jo, unë nuk jam një viktimë e krimit"
   question_6: "A ju ose një anëtar i afërt i familjes kanë një punëdhënës abuzive?"
-
   question_6_option_1: "Po, unë kam një punëdhënës abuzive"
   question_6_option_2: "Jo, unë nuk kam një punëdhënës abuzive"
   question_7: "A ju ose një anëtar i afërt i familjes të ketë një bashkëshort abuziv?"
@@ -873,17 +366,11 @@ sq:
   question_9_sub_1_option_1: "Po, kam ardhur në SH.B.A. para 15 qershor 2007"
   question_9_sub_1_option_2: "Jo, kam ardhur në SH.B.A. pas 15 qershor 2007"
   question_9_sub_2: "A keni ardhur në SH.B.A. para se të kthyer 16?"
-
   question_9_sub_2_option_1: "Po, kam ardhur në SH.B.A. para se unë u kthye 16"
   question_9_sub_2_option_2: "Jo, nuk kam ardhur në SH.B.A., pasi u ktheva 16"
   question_9_sub_3: "Më 15 qershor 2012 nuk keni një status të vlefshme emigracionit?"
-
   question_9_sub_3_option_1: "Po, kam pasur statusin e vlefshme imigracionit më 15 qershor 2012"
   question_9_sub_3_option_2: "Jo, unë nuk kanë status të vlefshme imigracionit më 15 qershor 2012"
-
-
-
-
   select_language: "Zgjidh një gjuhë"
   we_help_you: "Ne të ju ndihmojë të gjeni ndihmë ligjore."
   where_do_you_live: "Ku jetoni?"
@@ -899,125 +386,8 @@ sq:
   nav_go: "Shkoj"
   nav_contact: "Kontakt"
   Nav_helm_me: "Kërkesa Ndihmë"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Këtu janë rezultatet kemi gjetur për vendndodhjen tuaj:%s dhe gjuha juaj:%s"
+  please_wait: "Ju lutem prisni .."
 zh:
   KEY: "内容"
   question_1: "你是美国公民？"
@@ -1040,10 +410,6 @@ zh:
   question_3_info: "一个人谁拥有美国国籍或“绿卡”（永久合法居​​留）可以帮助一些家庭成员拿到绿卡了。"
   question_3_option_1: "是的，我有一个家庭成员谁是美国公民或合法永久居民"
   question_3_option_2: "不，我没有家庭成员谁是美国公民或合法永久居民"
-
-
-
-
   question_4: "您或您认识的人被驱逐出境（递解程序）？"
   question_4_info: "驱逐出境是切除一个人从美国的时候，他们已经发现有违反移民法。"
   question_4_option_1: "是的，我在递解出境程序"
@@ -1053,7 +419,6 @@ zh:
   question_5_option_1: "是的，我是一个刑事被害人"
   question_5_option_2: "不，我不是犯罪受害者"
   question_6: "你还是一个亲密的家庭成员有虐待雇主？"
-
   question_6_option_1: "是的，我有一个雇主虐待"
   question_6_option_2: "不，我没有一个雇主虐待"
   question_7: "你还是一个亲密的家庭成员有虐待配偶？"
@@ -1073,17 +438,11 @@ zh:
   question_9_sub_1_option_1: "是的，我刚到美国2007年6月15日之前，"
   question_9_sub_1_option_2: "不，我刚到美国2007年6月15日之后"
   question_9_sub_2: "你是来美国你转身前16？"
-
   question_9_sub_2_option_1: "是的，我来到美国之前，我转身16"
   question_9_sub_2_option_2: "不，不，我来到美国后，我转身16"
   question_9_sub_3: "在2012年6月15日你有一个有效的移民身份？"
-
   question_9_sub_3_option_1: "是的，我对2012年6月15日有效的移民身份"
   question_9_sub_3_option_2: "不，我并没有对2012年6月15日有效的移民身份"
-
-
-
-
   select_language: "选择一种语言"
   we_help_you: "我们帮你找法律帮助。"
   where_do_you_live: "你住在哪里？"
@@ -1099,125 +458,8 @@ zh:
   nav_go: "去"
   nav_contact: "联系"
   Nav_helm_me: "请求帮助"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "下面是我们找到适合您所在地的结果：％s和你的语言：％S"
+  please_wait: "请稍候.."
 fa:
   KEY: "CONTENT"
   question_1: "آیا شما یک شهروند ایالات متحده؟"
@@ -1240,10 +482,6 @@ fa:
   question_3_info: "فردی که به تابعیت ایالات متحده یا یک &quot;کارت سبز&quot; (اقامت دائم قانونی) می تواند کمک به برخی از اعضای خانواده دریافت کارت سبز بیش از حد."
   question_3_option_1: "بله، من یکی از اعضای خانواده که یک شهروند ایالات متحده یا مقیم دائم قانونی است"
   question_3_option_2: "نه، من یکی از اعضای خانواده که یک شهروند ایالات متحده یا مقیم دائم قانونی است ندارد"
-
-
-
-
   question_4: "آیا شما و یا کسی که می شناسید اخراج (در رسیدگی حذف)؟"
   question_4_info: "اخراج حذف یک فرد از ایالات متحده است زمانی که آنها یافت شده برای قوانین مهاجرت را نقض کرده اند."
   question_4_option_1: "بله، من در رسیدگی اخراج هستم"
@@ -1253,7 +491,6 @@ fa:
   question_5_option_1: "بله، من یک قربانی جرم و جنایت هستم"
   question_5_option_2: "نه، من یک قربانی جرم و جنایت"
   question_6: "آیا یک کارفرما سوء استفاده شما و یا یکی از اعضای خانواده داشته باشد؟"
-
   question_6_option_1: "بله، من یک کارفرما سوء استفاده"
   question_6_option_2: "نه، من یک کارفرما سوء ندارد"
   question_7: "آیا همسر شما سوء استفاده و یا یکی از اعضای خانواده داشته باشد؟"
@@ -1273,17 +510,11 @@ fa:
   question_9_sub_1_option_1: "بله، من در ایالات متحده قبل از 2007 ژوئن 15 وارد"
   question_9_sub_1_option_2: "نه، من در ایالات متحده پس از 2007 ژوئن 15 وارد"
   question_9_sub_2: "آیا شما به ایالات متحده آمده قبل از اینکه شما تبدیل 16؟"
-
   question_9_sub_2_option_1: "بله، من به ایالات متحده آمد قبل از من تبدیل 16"
   question_9_sub_2_option_2: "نه، نه من به ایالات متحده پس از من هم تبدیل شده 16"
   question_9_sub_3: "در 15 ژوئن، 2012 را که شما یک وضعیت مهاجرت معتبر است؟"
-
   question_9_sub_3_option_1: "بله، من وضعیت مهاجرت معتبر در 2012 ژوئن 15 حال"
   question_9_sub_3_option_2: "نه، من وضعیت مهاجرت معتبر در 15 ژوئن 2012 داشته نمی"
-
-
-
-
   select_language: "انتخاب زبان"
   we_help_you: "ما به شما کمک کند کمک حقوقی پیدا کنید."
   where_do_you_live: "کجا زندگی میکنی؟"
@@ -1299,125 +530,8 @@ fa:
   nav_go: "رفتن"
   nav_contact: "تماس"
   Nav_helm_me: "درخواست"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "٪ s و زبان:: در اینجا نتایج ما برای مکان خود را در بر داشت از٪ s"
+  please_wait: "لطفا صبر کنید .."
 de:
   KEY: "CONTENT"
   question_1: "Sind Sie ein US-Bürger?"
@@ -1440,10 +554,6 @@ de:
   question_3_info: "Eine Person, die US-Staatsbürgerschaft oder eine &quot;Green Card&quot; (Rechts ständigen Wohnsitz) hat kann helfen, einige Familienmitglieder bekommen eine Green Card zu."
   question_3_option_1: "Ja, ich habe ein Familienmitglied, ein US-Bürger oder juristische permanent resident ist"
   question_3_option_2: "Nein, ich habe nicht ein Familienmitglied, ein US-Bürger oder juristische ständigen Wohnsitz haben ist"
-
-
-
-
   question_4: "Sind Sie, oder jemand kennen deportiert (in Entfernung Verfahren)?"
   question_4_info: "Abschiebung ist die Entfernung von einer Person aus den Vereinigten Staaten, wenn sie festgestellt, dass die Einwanderungsgesetze verstoßen haben."
   question_4_option_1: "Ja, ich bin in Abschiebungsverfahren"
@@ -1453,7 +563,6 @@ de:
   question_5_option_1: "Ja, ich bin Opfer einer Straftat"
   question_5_option_2: "Nein, ich bin nicht ein Verbrechen zum Opfer"
   question_6: "Haben Sie oder ein naher Familienangehöriger eine missbräuchliche Arbeitgeber?"
-
   question_6_option_1: "Ja, ich habe eine missbräuchliche Arbeitgeber"
   question_6_option_2: "Nein, ich habe nicht eine missbräuchliche Arbeitgeber"
   question_7: "Haben Sie oder ein naher Familienangehöriger eine missbräuchliche Ehepartner?"
@@ -1473,17 +582,11 @@ de:
   question_9_sub_1_option_1: "Ja, ich kam in den USA vor dem 15. Juni 2007"
   question_9_sub_1_option_2: "Nein, ich kam in den USA nach dem 15. Juni 2007"
   question_9_sub_2: "Haben Sie auf die US-kommen, bevor Sie 16 geworden?"
-
   question_9_sub_2_option_1: "Ja, ich kam in die USA, bevor ich 16"
   question_9_sub_2_option_2: "Nein, nein, ich kam in die USA, nachdem ich 16"
   question_9_sub_3: "Am 15. Juni 2012 haben Sie einen gültigen Aufenthaltsstatus?"
-
   question_9_sub_3_option_1: "Ja, ich hatte gültigen Aufenthaltsstatus am 15. Juni 2012"
   question_9_sub_3_option_2: "Nein, ich hatte keine gültigen Aufenthaltsstatus am 15. Juni 2012"
-
-
-
-
   select_language: "Wählen Sie eine Sprache"
   we_help_you: "Wir helfen Ihnen, juristische Hilfe zu finden."
   where_do_you_live: "Wo wohnst du?"
@@ -1499,125 +602,8 @@ de:
   nav_go: "Gehen"
   nav_contact: "Kontakt"
   Nav_helm_me: "Hilfe anfordern"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Hier sind die Ergebnisse fanden wir für Ihr Land:%s und ihrer Sprache aus:%s"
+  please_wait: "Bitte Warten .."
 ko:
   question_1: "당신은 미국 시민입니까?"
   question_1_info: "당신은 출생시 또는 출생 후 미국 시민이 될 수 있습니다. 당신은 미국 (또는 미국 지역 또는 외곽 소유)에서 태어되어 있어야합니다 출생시 미국 시민이 될 수 있습니다. 당신이 귀화 또는 &quot;파생&quot;또는 부모를 통해 &quot;인수&quot;시민권 신청을해야 출산 후 미국 시민이 될 수 있습니다."
@@ -1639,10 +625,6 @@ ko:
   question_3_info: "미국 시민권 또는 &quot;그린 카드&quot;(영주권)을 가지고있는 사람은 어떤 가족 구성원도 녹색 카드를 얻을 수 있습니다."
   question_3_option_1: "예,이 미국 시민 또는 영주권자 인 가족"
   question_3_option_2: "아니, 난 미국 시민 또는 영주권자 인 가족이없는"
-
-
-
-
   question_4: "당신 또는 당신이 알고있는 누군가가 (제거 절차에서) 추방되고 있는가?"
   question_4_info: "추방은이 이민법을 위반 한 것으로 확인 된 경우 미국에서 사람의 제거이다."
   question_4_option_1: "예, 추방 절차에서 오전"
@@ -1652,7 +634,6 @@ ko:
   question_5_option_1: "예, 범죄 피해자입니다"
   question_5_option_2: "아니, 범죄 피해자 아니에요"
   question_6: "당신이나 가까운 가족이 학대 고용주가 있습니까?"
-
   question_6_option_1: "네, 욕설, 비방, 고용주가"
   question_6_option_2: "아니, 욕설, 비방, 고용주가 없습니다"
   question_7: "당신이나 가까운 가족이 학대 배우자가 있습니까?"
@@ -1672,17 +653,11 @@ ko:
   question_9_sub_1_option_1: "네, 2007년 6월 15일 전에 미국에 도착"
   question_9_sub_1_option_2: "아니, 2007년 6월 15일 후 미국에 도착"
   question_9_sub_2: "당신이 16 살이 전에 미국에 왔을 까?"
-
   question_9_sub_2_option_1: "내가 16 살이되기 전에 네, 미국에 온"
   question_9_sub_2_option_2: "내가 16 살이 후 아니, 내가 미국에 온"
   question_9_sub_3: "6 월 15 일에서 2012 유효한 이민 신분에 있었나요?"
-
   question_9_sub_3_option_1: "네, 2012년 6월 15일에 유효한 이민 신분을 가지고 있었다"
   question_9_sub_3_option_2: "아니, 2012년 6월 15일에 유효한 이민 신분을 가지고 있지 않았다"
-
-
-
-
   select_language: "언어 선택"
   we_help_you: "우리는 당신이 법률 지원을받는 데 도움을."
   where_do_you_live: "당신은 어디에서 살고 있습니까?"
@@ -1698,126 +673,8 @@ ko:
   nav_go: "가기"
   nav_contact: "접촉"
   Nav_helm_me: "요청 도움말"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "%s 및 언어 : 여기에 우리가 당신의 위치를​​ 발견 결과는 %의"
+  please_wait: "잠시 기다려주십시오 .."
 zh-tw:
   question_1_info: "您可以在出生時或出生後成為美國公民。要成為美國公民你必須已經在美國出生（或美國領土或屬地外圍）出生。要成為美國公民出生後，你必須入籍或申請“派生”或通過家長“後天”公民身份。"
   question_1_option_1: "是的，我是一個美國公民"
@@ -1838,10 +695,6 @@ zh-tw:
   question_3_info: "一個人誰擁有美國國籍或“綠卡”（永久合法居​​留）可以幫助一些家庭成員拿到綠卡了。"
   question_3_option_1: "是的，我有一個家庭成員誰是美國公民或合法永久居民"
   question_3_option_2: "不，我沒有家庭成員誰是美國公民或合法永久居民"
-
-
-
-
   question_4: "您或您認識的人被驅逐出境（遞解程序）？"
   question_4_info: "驅逐出境是切除一個人從美國的時候，他們已經發現有違反移民法。"
   question_4_option_1: "是的，我在遞解出境程序"
@@ -1851,7 +704,6 @@ zh-tw:
   question_5_option_1: "是的，我是一個刑事被害人"
   question_5_option_2: "不，我不是犯罪受害者"
   question_6: "你還是一個親密的家庭成員有虐待雇主？"
-
   question_6_option_1: "是的，我有一個雇主虐待"
   question_6_option_2: "不，我沒有一個雇主虐待"
   question_7: "你還是一個親密的家庭成員有虐待配偶？"
@@ -1871,17 +723,11 @@ zh-tw:
   question_9_sub_1_option_1: "是的，我剛到美國2007年6月15日之前，"
   question_9_sub_1_option_2: "不，我剛到美國2007年6月15日之後"
   question_9_sub_2: "你是來美國你轉身前16？"
-
   question_9_sub_2_option_1: "是的，我來到美國之前，我轉身16"
   question_9_sub_2_option_2: "不，不，我來到美國後，我轉身16"
   question_9_sub_3: "在2012年6月15日你有一個有效的移民身份？"
-
   question_9_sub_3_option_1: "是的，我對2012年6月15日有效的移民身份"
   question_9_sub_3_option_2: "不，我並沒有對2012年6月15日有效的移民身份"
-
-
-
-
   select_language: "選擇一種語言"
   we_help_you: "我們幫你找法律幫助。"
   where_do_you_live: "你住在哪裡？"
@@ -1897,127 +743,8 @@ zh-tw:
   nav_go: "去"
   nav_contact: "聯繫"
   Nav_helm_me: "請求幫助"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "下面是我們找到適合您所在地的結果：％s和你的語言：％S"
+  please_wait: "請稍候.."
 ht:
   question_1_option_1: "Wi, se mwen menm yon sitwayen ameriken"
   question_1_option_2: "Non, mwen menm mwen pa yon sitwayen ameriken"
@@ -2037,10 +764,6 @@ ht:
   question_3_info: "Yon moun ki gen sitwayènte ameriken oswa yon &quot;kat vèt&quot; (rezidans pèmanan legal) ka ede kèk manm fanmi jwenn yon kat vèt tou."
   question_3_option_1: "Wi, mwen gen yon manm fanmi ki se yon sitwayen ameriken oswa rezidan pèmanan legal"
   question_3_option_2: "Non, mwen pa gen yon manm nan fanmi an ki se yon sitwayen ameriken oswa rezidan pèmanan legal"
-
-
-
-
   question_4: "Èske ou menm oswa yon moun ou konnen ke yo te depòte (nan pwosedi ekspilsyon)?"
   question_4_info: "Depòtasyon se pou retire elèv la nan yon moun soti nan United States a lè yo yo te jwenn yo te vyole lwa yo imigrasyon."
   question_4_option_1: "Wi, mwen menm mwen nan pwosedi depòtasyon"
@@ -2050,7 +773,6 @@ ht:
   question_5_option_1: "Wi, se mwen menm yon viktim krim"
   question_5_option_2: "Non, mwen menm mwen pa yon viktim krim"
   question_6: "ou menm oswa yon manm fanmi pre gen yon patwon abizif?"
-
   question_6_option_1: "Wi, mwen gen yon patwon abizif"
   question_6_option_2: "Non, mwen pa gen yon patwon abizif"
   question_7: "ou menm oswa yon manm fanmi pre gen yon mari oswa madanm abizif?"
@@ -2070,17 +792,11 @@ ht:
   question_9_sub_1_option_1: "Wi, mwen te rive nan peyi Etazini an anvan 15 jen, 2007"
   question_9_sub_1_option_2: "Non, mwen te rive nan peyi Etazini an apre 15 jen, 2007"
   question_9_sub_2: "Èske w te vini nan peyi Etazini an anvan ou vire 16?"
-
   question_9_sub_2_option_1: "Wi, m 'te vin nan peyi Etazini an anvan m' yo te tounen 16"
   question_9_sub_2_option_2: "Non, pa gen okenn m 'te vin nan peyi Etazini an apre mwen te tounen 16"
   question_9_sub_3: "Sou 15 jen, 2012 t 'ou gen yon kondisyon imigrasyon ki valid?"
-
   question_9_sub_3_option_1: "Wi, mwen te gen kondisyon imigrasyon ki valid sou 15 jen, 2012"
   question_9_sub_3_option_2: "Non, mwen pa t 'gen kondisyon imigrasyon ki valid sou 15 jen, 2012"
-
-
-
-
   select_language: "Chwazi yon lang"
   we_help_you: "Nou ede w jwenn èd legal."
   where_do_you_live: "Ki kote w ap viv?"
@@ -2096,128 +812,8 @@ ht:
   nav_go: "Ale"
   nav_contact: "Kontakte"
   Nav_helm_me: "Mande èd"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Isit la yo se rezilta yo nou te jwenn ki kote ou:%s ak lang ou:%s"
+  please_wait: "Please Wait .."
 ja:
   question_1_option_2: "いいえ、私は米国市民ではないです"
   question_1_sub_1: "あなたはグリーンカードの家族を後援しようとしていますか？"
@@ -2236,10 +832,6 @@ ja:
   question_3_info: "米国の市民権または「グリーンカード」（法的永住権）を持っている人は、いくつかの家族があまりにもグリーンカードを取得することができます。"
   question_3_option_1: "はい、私は米国市民または法的永住者である家族を持っています"
   question_3_option_2: "いいえ、私は米国市民または法的永住者である家族を持っていません"
-
-
-
-
   question_4: "あなたやあなたが知っている誰かが（除去手続に）強制送還されていますか？"
   question_4_info: "国外追放は、彼らが移民法に違反したことが判明している米国からの人の除去です。"
   question_4_option_1: "はい、私は国外退去の手続きで午前"
@@ -2249,7 +841,6 @@ ja:
   question_5_option_1: "はい、私は犯罪被害者です"
   question_5_option_2: "いいえ、私は、犯罪被害者ではないです"
   question_6: "あなたや近親は虐待雇用主を持っていますか？"
-
   question_6_option_1: "はい、私は虐待雇用主を持っています"
   question_6_option_2: "いいえ、私は虐待雇用主を持っていません"
   question_7: "あなたや近親は虐待配偶者を持っていますか？"
@@ -2269,17 +860,11 @@ ja:
   question_9_sub_1_option_1: "はい、私は2007年6月15日の前に米国に到着しました"
   question_9_sub_1_option_2: "いいえ、私は2007年6月15日後に米国に到着しました"
   question_9_sub_2: "あなたが16を回した前に米国に来たのですか？"
-
   question_9_sub_2_option_1: "私は16を回した前にはい、私は、米国に来ました"
   question_9_sub_2_option_2: "私は16になった後、いや、いや、私は、米国に来ました"
   question_9_sub_3: "2012年6月15日には、有効な在留資格を持っていましたか？"
-
   question_9_sub_3_option_1: "はい、私は2012年6月15日に有効な在留資格を持っていました"
   question_9_sub_3_option_2: "いいえ、私は2012年6月15日に有効な在留資格を持っていませんでした"
-
-
-
-
   select_language: "言語を選択"
   we_help_you: "私たちは、あなたが法的なヘルプを見つけるのに役立ちます。"
   where_do_you_live: "どこに住んでいますか？"
@@ -2295,129 +880,8 @@ ja:
   nav_go: "行きます"
   nav_contact: "コンタクト"
   Nav_helm_me: "リクエストヘルプ"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "％sおよび言語の選択：：％sのここでは、お住まいの地域のために得られた結果は、"
+  please_wait: "お待ちください.."
 cmn:
   question_1_sub_1: "你们是不是要赞助一个家庭成员绿卡？"
   question_1_sub_1_info: "美国公民可以帮助配偶或孩子获得绿卡。美国公民谁是年满21岁可以帮助父母，兄弟姐妹拿到绿卡。"
@@ -2435,10 +899,6 @@ cmn:
   question_3_info: "一个人谁拥有美国国籍或“绿卡”（永久合法居​​留）可以帮助一些家庭成员拿到绿卡了。"
   question_3_option_1: "是的，我有一个家庭成员谁是美国公民或合法永久居民"
   question_3_option_2: "不，我没有家庭成员谁是美国公民或合法永久居民"
-
-
-
-
   question_4: "您或您认识的人被驱逐出境（递解程序）？"
   question_4_info: "驱逐出境是切除一个人从美国的时候，他们已经发现有违反移民法。"
   question_4_option_1: "是的，我在递解出境程序"
@@ -2448,7 +908,6 @@ cmn:
   question_5_option_1: "是的，我是一个刑事被害人"
   question_5_option_2: "不，我不是犯罪受害者"
   question_6: "你还是一个亲密的家庭成员有虐待雇主？"
-
   question_6_option_1: "是的，我有一个雇主虐待"
   question_6_option_2: "不，我没有一个雇主虐待"
   question_7: "你还是一个亲密的家庭成员有虐待配偶？"
@@ -2468,17 +927,11 @@ cmn:
   question_9_sub_1_option_1: "是的，我刚到美国2007年6月15日之前，"
   question_9_sub_1_option_2: "不，我刚到美国2007年6月15日之后"
   question_9_sub_2: "你是来美国你转身前16？"
-
   question_9_sub_2_option_1: "是的，我来到美国之前，我转身16"
   question_9_sub_2_option_2: "不，不，我来到美国后，我转身16"
   question_9_sub_3: "在2012年6月15日你有一个有效的移民身份？"
-
   question_9_sub_3_option_1: "是的，我对2012年6月15日有效的移民身份"
   question_9_sub_3_option_2: "不，我并没有对2012年6月15日有效的移民身份"
-
-
-
-
   select_language: "选择一种语言"
   we_help_you: "我们帮你找法律帮助。"
   where_do_you_live: "你住在哪里？"
@@ -2494,130 +947,8 @@ cmn:
   nav_go: "去"
   nav_contact: "联系"
   Nav_helm_me: "请求帮助"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "下面是我们找到适合您所在地的结果：％s和你的语言：％S"
+  please_wait: "请稍候.."
 pa:
   question_1_sub_1_info: "ਅਮਰੀਕਾ ਦੀ ਇਕ ਨਾਗਰਿਕ ਨੂੰ ਇੱਕ ਸਾਥੀ ਜ ਇੱਕ ਬੱਚੇ ਨੂੰ ਇੱਕ ਹਰੇ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ. 'ਤੇ ਘੱਟੋ-ਘੱਟ 21 ਸਾਲ ਦੀ ਉਮਰ ਦਾ ਹੈ, ਜੋ ਇਕ ਅਮਰੀਕੀ ਨਾਗਰਿਕ ਦੇ ਮਾਪੇ, ਭੈਣ ਦੀ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਭਰਾ ਇੱਕ ਹਰੇ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰੋ."
   question_1_sub_1_option_1: "ਜੀ, ਮੈਨੂੰ ਇੱਕ ਪਰਿਵਾਰ ਦੇ ਜੀਅ ਨੂੰ ਸਪਾਨਸਰ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਿਹਾ ਹੈ"
@@ -2634,10 +965,6 @@ pa:
   question_3_info: "ਅਮਰੀਕੀ ਨਾਗਰਿਕਤਾ ਜ ਇੱਕ 'ਗਰੀਨ ਕਾਰਡ' (ਕਾਨੂੰਨੀ ਸਥਾਈ ਰਿਹਾਇਸ਼) ਹੈ, ਜੋ ਕਿ ਕਿਸੇ ਇੱਕ ਵਿਅਕਤੀ ਨੂੰ ਕੁਝ ਪਰਿਵਾਰ ਵੀ ਇੱਕ ਹਰੇ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ."
   question_3_option_1: "ਜੀ, ਮੇਰੇ ਕੋਲ ਇੱਕ ਅਮਰੀਕੀ ਨਾਗਰਿਕ ਜ ਕਾਨੂੰਨੀ ਸਥਾਈ ਵਸਨੀਕ ਹੈ, ਜੋ ਕਿ ਇੱਕ ਪਰਿਵਾਰ ਦੇ ਜੀਅ"
   question_3_option_2: "ਕੋਈ, ਮੈਨੂੰ ਇੱਕ ਅਮਰੀਕੀ ਨਾਗਰਿਕ ਜ ਕਾਨੂੰਨੀ ਸਥਾਈ ਵਸਨੀਕ ਹੈ, ਜੋ ਕਿ ਇੱਕ ਪਰਿਵਾਰ ਦੇ ਜੀਅ ਨਹੀ ਹੈ"
-
-
-
-
   question_4: "ਤੁਹਾਨੂੰ ਜ ਤੁਹਾਨੂੰ ਪਤਾ ਹੈ ਕਿਸੇ ਨੂੰ (ਹਟਾਉਣ ਦੀ ਕਾਰਵਾਈ ਵਿੱਚ) ਨਿਕਾਲਾ ਜਾ ਰਹੇ ਹਨ?"
   question_4_info: "ਦੇਸ਼ ਨਿਕਾਲੇ ਉਹ ਇਮੀਗ੍ਰੇਸ਼ਨ ਕਾਨੂੰਨ ਦੀ ਉਲੰਘਣਾ ਕਰਨ ਦਾ ਦੋਸ਼ੀ ਪਾਇਆ ਗਿਆ ਹੈ, ਜਦ ਕਿ ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ ਦੀ ਇਕ ਵਿਅਕਤੀ ਦੀ ਹਟਾਉਣ ਹੈ."
   question_4_option_1: "ਜੀ, ਮੈਨੂੰ ਦੇਸ਼ ਨਿਕਾਲੇ ਦੀ ਕਾਰਵਾਈ ਵਿਚ am"
@@ -2647,7 +974,6 @@ pa:
   question_5_option_1: "ਜੀ, ਮੈਨੂੰ ਇੱਕ ਅਪਰਾਧ ਦਾ ਸ਼ਿਕਾਰ am"
   question_5_option_2: "ਕੋਈ, ਮੈਨੂੰ ਇੱਕ ਅਪਰਾਧ ਪੀੜਤ ਨਾ am"
   question_6: "ਤੁਹਾਨੂੰ ਜ ਇੱਕ ਦੇ ਨੇੜੇ ਪਰਿਵਾਰ ਦੇ ਸਦੱਸ ਨੂੰ ਇੱਕ ਬਦਸਲੂਕੀ ਰੋਜ਼ਗਾਰਦਾਤਾ ਹੈ?"
-
   question_6_option_1: "ਜੀ, ਮੈਨੂੰ ਕਿਸੇ ਬਦਸਲੂਕੀ ਰੋਜ਼ਗਾਰਦਾਤਾ ਹੈ"
   question_6_option_2: "ਕੋਈ, ਮੈਨੂੰ ਇੱਕ ਬਦਸਲੂਕੀ ਰੋਜ਼ਗਾਰਦਾਤਾ ਹੈ, ਨਾ ਕਰਦੇ,"
   question_7: "ਤੁਹਾਨੂੰ ਜ ਇੱਕ ਦੇ ਨੇੜੇ ਪਰਿਵਾਰ ਦੇ ਸਦੱਸ ਨੂੰ ਇੱਕ ਬਦਸਲੂਕੀ ਸਾਥੀ ਹੈ?"
@@ -2667,17 +993,11 @@ pa:
   question_9_sub_1_option_1: "ਜੀ, ਮੈਨੂੰ 15 ਜੂਨ, 2007 ਦੇ ਅੱਗੇ ਅਮਰੀਕਾ ਵਿਚ ਪਹੁੰਚ ਗਏ"
   question_9_sub_1_option_2: "ਕੋਈ, ਮੈਨੂੰ, 2007 ਜੂਨ 15 ਦੇ ਬਾਅਦ ਅਮਰੀਕਾ ਵਿਚ ਪਹੁੰਚੇ"
   question_9_sub_2: "ਤੁਹਾਨੂੰ 16 ਮੁੜਿਆ ਅੱਗੇ ਤੁਹਾਨੂੰ ਅਮਰੀਕਾ ਆਇਆ ਸੀ?"
-
   question_9_sub_2_option_1: "ਮੈਨੂੰ 16 ਮੁੜਿਆ ਅੱਗੇ ਜੀ, ਮੈਨੂੰ ਅਮਰੀਕਾ ਆਇਆ ਸੀ"
   question_9_sub_2_option_2: "ਮੈਨੂੰ 16 ਮੁੜਿਆ ਬਾਅਦ ਕੋਈ, ਕੋਈ ਵੀ ਮੈਨੂੰ ਅਮਰੀਕਾ ਆਇਆ ਸੀ"
   question_9_sub_3: "ਜੂਨ 15 'ਤੇ, 2012 ਤੁਹਾਨੂੰ ਇੱਕ ਜਾਇਜ਼ ਇਮੀਗ੍ਰੇਸ਼ਨ ਦੇ ਰੁਤਬੇ ਨੂੰ ਸੀ?"
-
   question_9_sub_3_option_1: "ਜੀ, ਮੈਨੂੰ, 2012 ਜੂਨ 15 ਤੇ ਠੀਕ ਇਮੀਗ੍ਰੇਸ਼ਨ ਦੇ ਰੁਤਬੇ ਨੂੰ ਸੀ"
   question_9_sub_3_option_2: "ਕੋਈ, ਮੈਨੂੰ, 2012 ਜੂਨ 15 ਤੇ ਜਾਇਜ਼ ਇਮੀਗ੍ਰੇਸ਼ਨ ਦੇ ਰੁਤਬੇ ਨੂੰ ਹੈ, ਨਾ ਸੀ"
-
-
-
-
   select_language: "ਇੱਕ ਭਾਸ਼ਾ ਦੀ ਚੋਣ ਕਰੋ"
   we_help_you: "ਅਸ ਤੁਹਾਨੂੰ ਕਾਨੂੰਨੀ ਮਦਦ ਲੱਭਣ ਲਈ ਮਦਦ ਕਰਦੇ ਹਨ."
   where_do_you_live: "ਤੁਸੀਂ ਕਿਥੇ ਰਹਿੰਦੇ ਹੋ?"
@@ -2693,131 +1013,8 @@ pa:
   nav_go: "ਜਾਓ"
   nav_contact: "ਸੰਪਰਕ"
   Nav_helm_me: "ਬੇਨਤੀ ਮਦਦ"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "% S ਅਤੇ ਆਪਣੀ ਭਾਸ਼ਾ:: ਇੱਥੇ ਸਾਨੂੰ ਆਪਣੇ ਟਿਕਾਣੇ ਲਈ ਪਾਇਆ ਨਤੀਜੇ ਹਨ%s"
+  please_wait: "ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ .."
 bs:
   question_1_sub_1_option_1: "Da, ja pokušavam da sponzor član obitelji"
   question_1_sub_1_option_2: "Ne, ja ne pokušavam da sponzor član obitelji"
@@ -2833,10 +1030,6 @@ bs:
   question_3_info: "Osoba koja ima američko državljanstvo ili &quot;zeleni karton&quot; (pravna stalni boravak) može pomoći nekih članova obitelji dobije zelenu kartu previše."
   question_3_option_1: "Da, imam člana porodice koji je američki državljanin ili pravna stalni boravak"
   question_3_option_2: "Ne, ja nemam člana porodice koji je američki državljanin ili pravna stalni boravak"
-
-
-
-
   question_4: "Da li ste vi ili neko koga poznajete koji su deportovani (u postupku uklanjanja)?"
   question_4_info: "Deportacija je uklanjanje osobe iz Sjedinjenih Američkih Država, kada je utvrđeno da su oni su prekršili imigracije zakona."
   question_4_option_1: "Da, ja sam u postupak deportacije"
@@ -2846,7 +1039,6 @@ bs:
   question_5_option_1: "Da, ja sam žrtva zločina"
   question_5_option_2: "Ne, ja nisam žrtva zločina"
   question_6: "Da li ili bliskog člana obitelji imaju uvredljiv poslodavca?"
-
   question_6_option_1: "Da, imam uvredljiv poslodavca"
   question_6_option_2: "Ne, nemam nasilnoj poslodavca"
   question_7: "Da li ili bliskog člana obitelji imaju uvredljiv supružnika?"
@@ -2866,17 +1058,11 @@ bs:
   question_9_sub_1_option_1: "Da, sam stigao u Sjedinjenih Američkih Država prije 15 Juni 2007"
   question_9_sub_1_option_2: "Ne, ja stigao u Sjedinjenih Američkih Država, nakon 15 juni 2007"
   question_9_sub_2: "Jeste li došli do američkih saveznih prije nego što se okrenuo 16?"
-
   question_9_sub_2_option_1: "Da, došao sam do Sjedinjenih Američkih Država prije nego što sam se okrenuo 16"
   question_9_sub_2_option_2: "Ne, ne, ja došao do Sjedinjenih Američkih Država nakon što sam okrenuo 16"
   question_9_sub_3: "Dana 15. Jun 2012 jeste li imali važeću imigracioni status?"
-
   question_9_sub_3_option_1: "Da, imao sam važi imigracioni status na juni 15, 2012"
   question_9_sub_3_option_2: "Ne, nisam imao važeći imigracioni status na 15 jun 2012"
-
-
-
-
   select_language: "Odaberite jezik"
   we_help_you: "Mi vam pomoći da pronađete pravne pomoći."
   where_do_you_live: "Gdje ti živiš?"
@@ -2892,133 +1078,377 @@ bs:
   nav_go: "Ići"
   nav_contact: "Kontakt"
   Nav_helm_me: "Upit Pomoć"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Ovo su rezultati koje smo našli za vašu lokaciju:%s i svoj jezik:%s"
+  please_wait: "Please Wait .."
+es:
+  question_1_sub_1_option_2: "No, no estoy tratando de apadrinar a un miembro de la familia"
+  question_2: "¿Es usted un residente legal permanente (tarjeta verde)?"
+  question_2_info: "Un residente legal permanente (LPR) o &quot;green card&quot; es una persona que no es un ciudadano de los EE.UU., pero está residiendo el en los EE.UU. como un residente permanente legal."
+  question_2_option_1: "Sí, soy un residente permanente legal (LPR)"
+  question_2_option_2: "No, yo no soy un residente permanente legal (LPR)"
+  question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
+  question_2_sub_1_info: "El proceso de convertirse en ciudadano de Estados Unidos se llama naturalización. La mayoría de las personas tienen que ser residentes permanentes legales (LPR o titulares de la tarjeta verde) durante cinco años antes de solicitar la naturalización. Algunos residentes permanentes legales son elegibles después de tres años. Hay reglas especiales para los miembros de las fuerzas armadas estadounidenses y sus familias."
+  question_2_sub_1_option_1: "Sí, estoy interesado en convertirse en un ciudadano de EE.UU."
+  question_2_sub_1_option_2: "No, no estoy interesado en convertirse en un ciudadano de los EE.UU."
+  question_3: "¿Tiene un familiar que es ciudadano estadounidense o residente permanente legal?"
+  question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
+  question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
+  question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
+  question_4_option_1: "Sí, estoy en proceso de deportación"
+  question_4_option_2: "No, yo no estoy en proceso de deportación"
+  question_5: "¿Está usted o un miembro cercano de la familia víctima de un delito?"
+  question_5_info: "Alguien que ha sido víctima de un delito en los Estados Unidos podría calificar para una visa U. Hay una lista de crímenes que califican a una persona para una visa U. La víctima del delito debe ayudar a la policía o el gobierno para obtener información sobre el crimen. Algunos miembros de la familia pueden calificar para una visa U también."
+  question_5_option_1: "Sí, soy una víctima de un crimen"
+  question_5_option_2: "No, yo no soy una víctima del delito"
+  question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
+  question_6_option_1: "Sí, tengo un empleador abusivo"
+  question_6_option_2: "No, yo no tengo un empleador abusivo"
+  question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
+  question_7_info: "La Ley de Violencia Mujeres (VAWA) permite a los inmigrantes maltratadas para solicitar un estatus legal en los Estados Unidos sin tener que depender de un ciudadano estadounidense abusivo o residente permanente legal (LPR) cónyuge, padre o hijo para patrocinar su solicitud de ajuste de estatus."
+  question_7_option_1: "Sí, tengo un esposo abusivo"
+  question_7_option_2: "No, yo no tengo un esposo abusivo"
+  question_8: "¿Está usted o un miembro de la familia tiene miedo de regresar a su país de origen?"
+  question_8_info: "Alguien que ha sufrido la persecución en su país de origen o que teme que sufrirán persecución si regresan a su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a un determinado grupo social puede ser elegible para el asilo."
+  question_8_option_1: "Sí, tengo miedo de regresar a mi país de origen"
+  question_8_option_2: "No, yo no tengo miedo de regresar a mi país de origen"
+  question_9: "¿Nació después de 15 de junio 1981?"
+  question_9_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_option_1: "Sí, yo nací después de 15 de junio 1981"
+  question_9_option_2: "No, yo nací antes de 15 de junio 1981"
+  question_9_sub_1: "¿Sabía usted llega en los EE.UU. antes del 15 de junio 2007?"
+  question_9_sub_1_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
+  question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
+  question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
+  question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
+  question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
+  question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
+  question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
+  question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"
+  home_choose_language: "Elija un idioma:"
+  home_intro_text: "Estrella ayuda a encontrar ayuda gratuita o la inmigración bajo costo cerca de usted."
+  home_location: "Dónde vives?"
+  home_your_language: "Qué idioma hablas?"
+  decision_tree_intro: "Responder a algunas preguntas para ayudarnos a encontrar la organización adecuada para usted."
+  nav_back: "Espalda"
+  nav_next: "Siguiente"
+  nav_go: "Ir"
+  nav_contact: "Contacto"
+  Nav_helm_me: "Solicitar ayuda"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
+es:
+  question_2: "¿Es usted un residente legal permanente (tarjeta verde)?"
+  question_2_info: "Un residente legal permanente (LPR) o &quot;green card&quot; es una persona que no es un ciudadano de los EE.UU., pero está residiendo el en los EE.UU. como un residente permanente legal."
+  question_2_option_1: "Sí, soy un residente permanente legal (LPR)"
+  question_2_option_2: "No, yo no soy un residente permanente legal (LPR)"
+  question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
+  question_2_sub_1_info: "El proceso de convertirse en ciudadano de Estados Unidos se llama naturalización. La mayoría de las personas tienen que ser residentes permanentes legales (LPR o titulares de la tarjeta verde) durante cinco años antes de solicitar la naturalización. Algunos residentes permanentes legales son elegibles después de tres años. Hay reglas especiales para los miembros de las fuerzas armadas estadounidenses y sus familias."
+  question_2_sub_1_option_1: "Sí, estoy interesado en convertirse en un ciudadano de EE.UU."
+  question_2_sub_1_option_2: "No, no estoy interesado en convertirse en un ciudadano de los EE.UU."
+  question_3: "¿Tiene un familiar que es ciudadano estadounidense o residente permanente legal?"
+  question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
+  question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
+  question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
+  question_4_option_1: "Sí, estoy en proceso de deportación"
+  question_4_option_2: "No, yo no estoy en proceso de deportación"
+  question_5: "¿Está usted o un miembro cercano de la familia víctima de un delito?"
+  question_5_info: "Alguien que ha sido víctima de un delito en los Estados Unidos podría calificar para una visa U. Hay una lista de crímenes que califican a una persona para una visa U. La víctima del delito debe ayudar a la policía o el gobierno para obtener información sobre el crimen. Algunos miembros de la familia pueden calificar para una visa U también."
+  question_5_option_1: "Sí, soy una víctima de un crimen"
+  question_5_option_2: "No, yo no soy una víctima del delito"
+  question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
+  question_6_option_1: "Sí, tengo un empleador abusivo"
+  question_6_option_2: "No, yo no tengo un empleador abusivo"
+  question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
+  question_7_info: "La Ley de Violencia Mujeres (VAWA) permite a los inmigrantes maltratadas para solicitar un estatus legal en los Estados Unidos sin tener que depender de un ciudadano estadounidense abusivo o residente permanente legal (LPR) cónyuge, padre o hijo para patrocinar su solicitud de ajuste de estatus."
+  question_7_option_1: "Sí, tengo un esposo abusivo"
+  question_7_option_2: "No, yo no tengo un esposo abusivo"
+  question_8: "¿Está usted o un miembro de la familia tiene miedo de regresar a su país de origen?"
+  question_8_info: "Alguien que ha sufrido la persecución en su país de origen o que teme que sufrirán persecución si regresan a su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a un determinado grupo social puede ser elegible para el asilo."
+  question_8_option_1: "Sí, tengo miedo de regresar a mi país de origen"
+  question_8_option_2: "No, yo no tengo miedo de regresar a mi país de origen"
+  question_9: "¿Nació después de 15 de junio 1981?"
+  question_9_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_option_1: "Sí, yo nací después de 15 de junio 1981"
+  question_9_option_2: "No, yo nací antes de 15 de junio 1981"
+  question_9_sub_1: "¿Sabía usted llega en los EE.UU. antes del 15 de junio 2007?"
+  question_9_sub_1_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
+  question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
+  question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
+  question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
+  question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
+  question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
+  question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
+  question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"
+  home_choose_language: "Elija un idioma:"
+  home_intro_text: "Estrella ayuda a encontrar ayuda gratuita o la inmigración bajo costo cerca de usted."
+  home_location: "Dónde vives?"
+  home_your_language: "Qué idioma hablas?"
+  decision_tree_intro: "Responder a algunas preguntas para ayudarnos a encontrar la organización adecuada para usted."
+  nav_back: "Espalda"
+  nav_next: "Siguiente"
+  nav_go: "Ir"
+  nav_contact: "Contacto"
+  Nav_helm_me: "Solicitar ayuda"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
+es:
+  question_2_info: "Un residente legal permanente (LPR) o &quot;green card&quot; es una persona que no es un ciudadano de los EE.UU., pero está residiendo el en los EE.UU. como un residente permanente legal."
+  question_2_option_1: "Sí, soy un residente permanente legal (LPR)"
+  question_2_option_2: "No, yo no soy un residente permanente legal (LPR)"
+  question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
+  question_2_sub_1_info: "El proceso de convertirse en ciudadano de Estados Unidos se llama naturalización. La mayoría de las personas tienen que ser residentes permanentes legales (LPR o titulares de la tarjeta verde) durante cinco años antes de solicitar la naturalización. Algunos residentes permanentes legales son elegibles después de tres años. Hay reglas especiales para los miembros de las fuerzas armadas estadounidenses y sus familias."
+  question_2_sub_1_option_1: "Sí, estoy interesado en convertirse en un ciudadano de EE.UU."
+  question_2_sub_1_option_2: "No, no estoy interesado en convertirse en un ciudadano de los EE.UU."
+  question_3: "¿Tiene un familiar que es ciudadano estadounidense o residente permanente legal?"
+  question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
+  question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
+  question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
+  question_4_option_1: "Sí, estoy en proceso de deportación"
+  question_4_option_2: "No, yo no estoy en proceso de deportación"
+  question_5: "¿Está usted o un miembro cercano de la familia víctima de un delito?"
+  question_5_info: "Alguien que ha sido víctima de un delito en los Estados Unidos podría calificar para una visa U. Hay una lista de crímenes que califican a una persona para una visa U. La víctima del delito debe ayudar a la policía o el gobierno para obtener información sobre el crimen. Algunos miembros de la familia pueden calificar para una visa U también."
+  question_5_option_1: "Sí, soy una víctima de un crimen"
+  question_5_option_2: "No, yo no soy una víctima del delito"
+  question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
+  question_6_option_1: "Sí, tengo un empleador abusivo"
+  question_6_option_2: "No, yo no tengo un empleador abusivo"
+  question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
+  question_7_info: "La Ley de Violencia Mujeres (VAWA) permite a los inmigrantes maltratadas para solicitar un estatus legal en los Estados Unidos sin tener que depender de un ciudadano estadounidense abusivo o residente permanente legal (LPR) cónyuge, padre o hijo para patrocinar su solicitud de ajuste de estatus."
+  question_7_option_1: "Sí, tengo un esposo abusivo"
+  question_7_option_2: "No, yo no tengo un esposo abusivo"
+  question_8: "¿Está usted o un miembro de la familia tiene miedo de regresar a su país de origen?"
+  question_8_info: "Alguien que ha sufrido la persecución en su país de origen o que teme que sufrirán persecución si regresan a su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a un determinado grupo social puede ser elegible para el asilo."
+  question_8_option_1: "Sí, tengo miedo de regresar a mi país de origen"
+  question_8_option_2: "No, yo no tengo miedo de regresar a mi país de origen"
+  question_9: "¿Nació después de 15 de junio 1981?"
+  question_9_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_option_1: "Sí, yo nací después de 15 de junio 1981"
+  question_9_option_2: "No, yo nací antes de 15 de junio 1981"
+  question_9_sub_1: "¿Sabía usted llega en los EE.UU. antes del 15 de junio 2007?"
+  question_9_sub_1_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
+  question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
+  question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
+  question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
+  question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
+  question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
+  question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
+  question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"
+  home_choose_language: "Elija un idioma:"
+  home_intro_text: "Estrella ayuda a encontrar ayuda gratuita o la inmigración bajo costo cerca de usted."
+  home_location: "Dónde vives?"
+  home_your_language: "Qué idioma hablas?"
+  decision_tree_intro: "Responder a algunas preguntas para ayudarnos a encontrar la organización adecuada para usted."
+  nav_back: "Espalda"
+  nav_next: "Siguiente"
+  nav_go: "Ir"
+  nav_contact: "Contacto"
+  Nav_helm_me: "Solicitar ayuda"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
+es:
+  question_2_option_1: "Sí, soy un residente permanente legal (LPR)"
+  question_2_option_2: "No, yo no soy un residente permanente legal (LPR)"
+  question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
+  question_2_sub_1_info: "El proceso de convertirse en ciudadano de Estados Unidos se llama naturalización. La mayoría de las personas tienen que ser residentes permanentes legales (LPR o titulares de la tarjeta verde) durante cinco años antes de solicitar la naturalización. Algunos residentes permanentes legales son elegibles después de tres años. Hay reglas especiales para los miembros de las fuerzas armadas estadounidenses y sus familias."
+  question_2_sub_1_option_1: "Sí, estoy interesado en convertirse en un ciudadano de EE.UU."
+  question_2_sub_1_option_2: "No, no estoy interesado en convertirse en un ciudadano de los EE.UU."
+  question_3: "¿Tiene un familiar que es ciudadano estadounidense o residente permanente legal?"
+  question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
+  question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
+  question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
+  question_4_option_1: "Sí, estoy en proceso de deportación"
+  question_4_option_2: "No, yo no estoy en proceso de deportación"
+  question_5: "¿Está usted o un miembro cercano de la familia víctima de un delito?"
+  question_5_info: "Alguien que ha sido víctima de un delito en los Estados Unidos podría calificar para una visa U. Hay una lista de crímenes que califican a una persona para una visa U. La víctima del delito debe ayudar a la policía o el gobierno para obtener información sobre el crimen. Algunos miembros de la familia pueden calificar para una visa U también."
+  question_5_option_1: "Sí, soy una víctima de un crimen"
+  question_5_option_2: "No, yo no soy una víctima del delito"
+  question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
+  question_6_option_1: "Sí, tengo un empleador abusivo"
+  question_6_option_2: "No, yo no tengo un empleador abusivo"
+  question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
+  question_7_info: "La Ley de Violencia Mujeres (VAWA) permite a los inmigrantes maltratadas para solicitar un estatus legal en los Estados Unidos sin tener que depender de un ciudadano estadounidense abusivo o residente permanente legal (LPR) cónyuge, padre o hijo para patrocinar su solicitud de ajuste de estatus."
+  question_7_option_1: "Sí, tengo un esposo abusivo"
+  question_7_option_2: "No, yo no tengo un esposo abusivo"
+  question_8: "¿Está usted o un miembro de la familia tiene miedo de regresar a su país de origen?"
+  question_8_info: "Alguien que ha sufrido la persecución en su país de origen o que teme que sufrirán persecución si regresan a su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a un determinado grupo social puede ser elegible para el asilo."
+  question_8_option_1: "Sí, tengo miedo de regresar a mi país de origen"
+  question_8_option_2: "No, yo no tengo miedo de regresar a mi país de origen"
+  question_9: "¿Nació después de 15 de junio 1981?"
+  question_9_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_option_1: "Sí, yo nací después de 15 de junio 1981"
+  question_9_option_2: "No, yo nací antes de 15 de junio 1981"
+  question_9_sub_1: "¿Sabía usted llega en los EE.UU. antes del 15 de junio 2007?"
+  question_9_sub_1_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
+  question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
+  question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
+  question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
+  question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
+  question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
+  question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
+  question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"
+  home_choose_language: "Elija un idioma:"
+  home_intro_text: "Estrella ayuda a encontrar ayuda gratuita o la inmigración bajo costo cerca de usted."
+  home_location: "Dónde vives?"
+  home_your_language: "Qué idioma hablas?"
+  decision_tree_intro: "Responder a algunas preguntas para ayudarnos a encontrar la organización adecuada para usted."
+  nav_back: "Espalda"
+  nav_next: "Siguiente"
+  nav_go: "Ir"
+  nav_contact: "Contacto"
+  Nav_helm_me: "Solicitar ayuda"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
+es:
+  question_2_option_2: "No, yo no soy un residente permanente legal (LPR)"
+  question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
+  question_2_sub_1_info: "El proceso de convertirse en ciudadano de Estados Unidos se llama naturalización. La mayoría de las personas tienen que ser residentes permanentes legales (LPR o titulares de la tarjeta verde) durante cinco años antes de solicitar la naturalización. Algunos residentes permanentes legales son elegibles después de tres años. Hay reglas especiales para los miembros de las fuerzas armadas estadounidenses y sus familias."
+  question_2_sub_1_option_1: "Sí, estoy interesado en convertirse en un ciudadano de EE.UU."
+  question_2_sub_1_option_2: "No, no estoy interesado en convertirse en un ciudadano de los EE.UU."
+  question_3: "¿Tiene un familiar que es ciudadano estadounidense o residente permanente legal?"
+  question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
+  question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
+  question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
+  question_4_option_1: "Sí, estoy en proceso de deportación"
+  question_4_option_2: "No, yo no estoy en proceso de deportación"
+  question_5: "¿Está usted o un miembro cercano de la familia víctima de un delito?"
+  question_5_info: "Alguien que ha sido víctima de un delito en los Estados Unidos podría calificar para una visa U. Hay una lista de crímenes que califican a una persona para una visa U. La víctima del delito debe ayudar a la policía o el gobierno para obtener información sobre el crimen. Algunos miembros de la familia pueden calificar para una visa U también."
+  question_5_option_1: "Sí, soy una víctima de un crimen"
+  question_5_option_2: "No, yo no soy una víctima del delito"
+  question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
+  question_6_option_1: "Sí, tengo un empleador abusivo"
+  question_6_option_2: "No, yo no tengo un empleador abusivo"
+  question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
+  question_7_info: "La Ley de Violencia Mujeres (VAWA) permite a los inmigrantes maltratadas para solicitar un estatus legal en los Estados Unidos sin tener que depender de un ciudadano estadounidense abusivo o residente permanente legal (LPR) cónyuge, padre o hijo para patrocinar su solicitud de ajuste de estatus."
+  question_7_option_1: "Sí, tengo un esposo abusivo"
+  question_7_option_2: "No, yo no tengo un esposo abusivo"
+  question_8: "¿Está usted o un miembro de la familia tiene miedo de regresar a su país de origen?"
+  question_8_info: "Alguien que ha sufrido la persecución en su país de origen o que teme que sufrirán persecución si regresan a su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a un determinado grupo social puede ser elegible para el asilo."
+  question_8_option_1: "Sí, tengo miedo de regresar a mi país de origen"
+  question_8_option_2: "No, yo no tengo miedo de regresar a mi país de origen"
+  question_9: "¿Nació después de 15 de junio 1981?"
+  question_9_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_option_1: "Sí, yo nací después de 15 de junio 1981"
+  question_9_option_2: "No, yo nací antes de 15 de junio 1981"
+  question_9_sub_1: "¿Sabía usted llega en los EE.UU. antes del 15 de junio 2007?"
+  question_9_sub_1_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
+  question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
+  question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
+  question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
+  question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
+  question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
+  question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
+  question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"
+  home_choose_language: "Elija un idioma:"
+  home_intro_text: "Estrella ayuda a encontrar ayuda gratuita o la inmigración bajo costo cerca de usted."
+  home_location: "Dónde vives?"
+  home_your_language: "Qué idioma hablas?"
+  decision_tree_intro: "Responder a algunas preguntas para ayudarnos a encontrar la organización adecuada para usted."
+  nav_back: "Espalda"
+  nav_next: "Siguiente"
+  nav_go: "Ir"
+  nav_contact: "Contacto"
+  Nav_helm_me: "Solicitar ayuda"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
+es:
+  question_2_sub_1: "¿Está usted interesado en convertirse en un ciudadano EE.UU.?"
+  question_2_sub_1_info: "El proceso de convertirse en ciudadano de Estados Unidos se llama naturalización. La mayoría de las personas tienen que ser residentes permanentes legales (LPR o titulares de la tarjeta verde) durante cinco años antes de solicitar la naturalización. Algunos residentes permanentes legales son elegibles después de tres años. Hay reglas especiales para los miembros de las fuerzas armadas estadounidenses y sus familias."
+  question_2_sub_1_option_1: "Sí, estoy interesado en convertirse en un ciudadano de EE.UU."
+  question_2_sub_1_option_2: "No, no estoy interesado en convertirse en un ciudadano de los EE.UU."
+  question_3: "¿Tiene un familiar que es ciudadano estadounidense o residente permanente legal?"
+  question_3_info: "Una persona que tiene la ciudadanía estadounidense o una &quot;tarjeta verde&quot; (la residencia permanente legal) puede ayudar a algunos miembros de la familia reciben una tarjeta verde también."
+  question_3_option_1: "Sí, tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_3_option_2: "No, yo no tengo un familiar que es ciudadano estadounidense o residente legal permanente"
+  question_4: "¿Está usted o alguien que usted conoce está deportado (en proceso de deportación)?"
+  question_4_info: "La deportación es la eliminación de una persona de los Estados Unidos cuando se han encontrado haber violado las leyes de inmigración."
+  question_4_option_1: "Sí, estoy en proceso de deportación"
+  question_4_option_2: "No, yo no estoy en proceso de deportación"
+  question_5: "¿Está usted o un miembro cercano de la familia víctima de un delito?"
+  question_5_info: "Alguien que ha sido víctima de un delito en los Estados Unidos podría calificar para una visa U. Hay una lista de crímenes que califican a una persona para una visa U. La víctima del delito debe ayudar a la policía o el gobierno para obtener información sobre el crimen. Algunos miembros de la familia pueden calificar para una visa U también."
+  question_5_option_1: "Sí, soy una víctima de un crimen"
+  question_5_option_2: "No, yo no soy una víctima del delito"
+  question_6: "¿Tiene usted o un familiar cercano tiene un empleador abusivo?"
+  question_6_option_1: "Sí, tengo un empleador abusivo"
+  question_6_option_2: "No, yo no tengo un empleador abusivo"
+  question_7: "¿Tiene usted o un familiar cercano tiene un cónyuge abusivo?"
+  question_7_info: "La Ley de Violencia Mujeres (VAWA) permite a los inmigrantes maltratadas para solicitar un estatus legal en los Estados Unidos sin tener que depender de un ciudadano estadounidense abusivo o residente permanente legal (LPR) cónyuge, padre o hijo para patrocinar su solicitud de ajuste de estatus."
+  question_7_option_1: "Sí, tengo un esposo abusivo"
+  question_7_option_2: "No, yo no tengo un esposo abusivo"
+  question_8: "¿Está usted o un miembro de la familia tiene miedo de regresar a su país de origen?"
+  question_8_info: "Alguien que ha sufrido la persecución en su país de origen o que teme que sufrirán persecución si regresan a su país de origen debido a su raza, religión, nacionalidad, opinión política o pertenencia a un determinado grupo social puede ser elegible para el asilo."
+  question_8_option_1: "Sí, tengo miedo de regresar a mi país de origen"
+  question_8_option_2: "No, yo no tengo miedo de regresar a mi país de origen"
+  question_9: "¿Nació después de 15 de junio 1981?"
+  question_9_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_option_1: "Sí, yo nací después de 15 de junio 1981"
+  question_9_option_2: "No, yo nací antes de 15 de junio 1981"
+  question_9_sub_1: "¿Sabía usted llega en los EE.UU. antes del 15 de junio 2007?"
+  question_9_sub_1_info: "Si usted es indocumentado, nacido el 15 de junio de 1981, y llegó a los EE.UU. antes del 15 de junio de 2007, usted puede ser elegible para la Acción Diferida para la Infancia (DACA) llegadas."
+  question_9_sub_1_option_1: "Sí, llegué a los EE.UU. antes de 15 de junio 2007"
+  question_9_sub_1_option_2: "No, llegué a los EE.UU. después de 15 de junio 2007"
+  question_9_sub_2: "¿Has venido a los EE.UU. antes de cumplir los 16?"
+  question_9_sub_2_option_1: "Sí, llegué a los EE.UU. antes de cumplir los 16"
+  question_9_sub_2_option_2: "No, no llegué a los EE.UU. después de cumplir 16"
+  question_9_sub_3: "El 15 de junio 2012 ¿Tuviste un estatus migratorio válido?"
+  question_9_sub_3_option_1: "Sí, tuve estatus migratorio válido en 15 de junio 2012"
+  question_9_sub_3_option_2: "No, yo no tenía estatus migratorio válido en 15 de junio 2012"
+  select_language: "Seleccione un idioma"
+  we_help_you: "Le ayudamos a encontrar ayuda legal."
+  where_do_you_live: "Dónde vives?"
+  enter_zip: "Introduzca ciudad, estado, código postal ..."
+  start: "Iniciar!"
+  home_choose_language: "Elija un idioma:"
+  home_intro_text: "Estrella ayuda a encontrar ayuda gratuita o la inmigración bajo costo cerca de usted."
+  home_location: "Dónde vives?"
+  home_your_language: "Qué idioma hablas?"
+  decision_tree_intro: "Responder a algunas preguntas para ayudarnos a encontrar la organización adecuada para usted."
+  nav_back: "Espalda"
+  nav_next: "Siguiente"
+  nav_go: "Ir"
+  nav_contact: "Contacto"
+  Nav_helm_me: "Solicitar ayuda"
+  here_are_results: "Estos son los resultados que encontramos para su ubicación:%s y su idioma:%s"
+  please_wait: "Por Favor Espere .."
 hy:
   question_2_sub_1_info: "Գործընթացը դառնում է ԱՄՆ քաղաքացի, որը կոչվում է ձեռքբերման: Շատ մարդիկ պետք է Legal մշտական ​​բնակիչները (LPRs կամ կանաչ քարտապաններին) հինգ տարի, մինչեւ դիմելու հպատակագրել. Որոշ LPRs իրավասու բանից հետո, երբ երեք տարի. Կան հատուկ կանոնները անդամների ամերիկյան ռազմական եւ նրանց ընտանիքներին:"
   question_2_sub_1_option_1: "Այո, ես հետաքրքրված եմ դառնալ ԱՄՆ քաղաքացի"
@@ -3027,10 +1457,6 @@ hy:
   question_3_info: "Այն մարդը, ով ունի, ԱՄՆ քաղաքացիություն կամ «կանաչ քարտ» (իրավաբանական մշտական ​​բնակության) կարող է օգնել որոշ ընտանիքի անդամներին ստանալ կանաչ քարտ էլ."
   question_3_option_1: "Այո, ես ունեմ մի ընտանիքի անդամ, ով ԱՄՆ քաղաքացի կամ իրավաբանական մշտական ​​բնակիչ,"
   question_3_option_2: "Ոչ, ես չեմ ունենա ընտանիքի անդամ, ով ԱՄՆ քաղաքացի կամ իրավաբանական մշտական ​​բնակիչ,"
-
-
-
-
   question_4: "Արդյոք դուք կամ մեկը, դուք գիտեք, որ արտաքսվել է (հեռացման վարույթի)."
   question_4_info: "Տեղահանումը է հեռացումը է անձի Միացյալ Նահանգներում, երբ նրանք արդեն գտել է, որ խախտվել ներգաղթի օրենքները."
   question_4_option_1: "Այո, ես եմ տեղահանութեան վարույթում"
@@ -3040,7 +1466,6 @@ hy:
   question_5_option_1: "Այո, ես եմ հանցագործություն զոհ"
   question_5_option_2: "Ոչ, ես ոչ մի հանցագործություն զոհ"
   question_6: "Արդյոք դուք կամ ընտանիքի անդամը պետք է վիրավորական գործատուին."
-
   question_6_option_1: "Այո, ես ունեմ մի վիրավորական գործատուին"
   question_6_option_2: "Ոչ, ես չեմ ունենա վիրավորական գործատուին"
   question_7: "Արդյոք դուք կամ ընտանիքի անդամը պետք է վիրավորական ամուսնուց."
@@ -3060,17 +1485,11 @@ hy:
   question_9_sub_1_option_1: "Այո, ես ժամանել է ԱՄՆ - ում, մինչեւ հունիսի 15-ը, 2007 թ."
   question_9_sub_1_option_2: "Ոչ, ես ժամանեցի է ԱՄՆ բանից հետո, երբ հունիսի 15-2007"
   question_9_sub_2: "Արդյոք դուք գալիս է ԱՄՆ - ում, մինչեւ դուք դիմել 16."
-
   question_9_sub_2_option_1: "Այո, ես եկա ԱՄՆ - ում, մինչեւ ես դիմել 16"
   question_9_sub_2_option_2: "Ոչ, ոչ, ես եկել է ԱՄՆ - ում,, երբ ես դիմել 16"
   question_9_sub_3: "Հունիսի 15-ին, 2012 ես պետք է վավեր ներգաղթային կարգավիճակը."
-
   question_9_sub_3_option_1: "Այո, ես ունեի վավեր ներգաղթի կարգավիճակը հունիսի 15, 2012"
   question_9_sub_3_option_2: "Ոչ, ես չէի ունենա գործող ներգաղթային կարգավիճակը հունիսի 15, 2012"
-
-
-
-
   select_language: "Ընտրեք լեզուն"
   we_help_you: "Մենք կօգնենք ձեզ գտնել իրավական օգնություն:"
   where_do_you_live: "Որտեղ եք ապրում."
@@ -3086,1934 +1505,5 @@ hy:
   nav_go: "Գնալ"
   nav_contact: "Հետադարձ կապ"
   Nav_helm_me: "Ծանուցման վերնագիրը: Օգնություն"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  here_are_results: "Ահա դրանց արդյունքները, որ մենք found for ձեր գտնվելու վայրը:%s, եւ ձեր լեզուն:%s"
+  please_wait: "Խնդրում ենք սպասել ..."

@@ -6,24 +6,26 @@ document.body.dir="<%= ApplicationController.site_direction(session[:locale]) %>
 	
 	<div class="row">
 		<div class="col-xs-12">
-						<h1><%= I18n.t(:here_are_results) %></h1>
+			<h1><%= @results_message %></h1>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-xs-12">
 			<table class="table">
-  				<% @results.each do |organization| %>
-  					<tr>
-  						<td>	<% organization["pbn:legalServices"].each do |legalservice| %>
-  									<%= legalservice["service"] %>
-  								<% end %>
-  						<br/><%= organization["title"] %></td>
-  						<td>15min</td>
+					<% @results.each do |organization| %>
+						<tr>
+										<td>
+														<h2><%= organization["title"] %></h2>
+														<% organization["pbn:legalServices"].each do |legalservice| %>
+										<%= legalservice["service"] %>
+									<% end %>
+							</td>
+							<td>15min</td>
 							<td><a href="/results/<%= organization["id"] %>" class="btn btn-success"><%= I18n.t("nav_contact") %></a></td>
-  					</tr>
+						</tr>
 
-  				<% end %>
+					<% end %>
 			</table>
 		</div>
 	</div>

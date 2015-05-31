@@ -1,10 +1,12 @@
 <script>
+var please_wait_str = "<%= I18n.t(:please_wait) %>";
 //some languages require rtl
 document.body.dir="<%= @site_direction %>";
 /**
 * find_me fill in location input with latlon coordinates
 */
 function find_me(){
+		document.getElementById("location").value = please_wait_str;
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else {
@@ -29,7 +31,7 @@ if fills in the results into the location field.
 
 */
 function parse_results(a){
-		alert(a.results[0].address_components[7].types[0]);
+		//alert(a.results[0].address_components[7].types[0]);
 		var ac = a.results[0].address_components;
 		//var ac = a["results"][0]["address_components"];
 		for(var i=0;ac.length;i++){
@@ -140,9 +142,9 @@ function ajax(url,func){
 	<div class="row">
 		<form action="screening" method="get">
 			  <div class="form-group">
-			    <label for="localization"><%= I18n.t(:where_do_you_live) %></label>
+			    <label for="location"><%= I18n.t(:where_do_you_live) %></label>
 			    <div class="input-group">
-			      <input type="text" class="form-control" id="localization" name="localization" placeholder="<%= I18n.t(:enter_zip) %>">
+			      <input type="text" class="form-control" id="location" name="localization" placeholder="<%= I18n.t(:enter_zip) %>">
 			      <div id="location-arrow" class="input-group-addon"><i style='cursor:pointer' onclick='find_me()' class="fa fa-location-arrow"></i></div>
 			    </div>
 			  </div>
