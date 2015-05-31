@@ -112,6 +112,14 @@ function ajax(url,func){
           padding-bottom: 25px;
           height: 75px;
         }
+
+        .bg-image {
+          background: url('images/are-you-eligible.jpg') no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
         
 </style>
 
@@ -143,19 +151,19 @@ function ajax(url,func){
 						</select>
           </div>
           <!--
-       <ul class="nav navbar-nav navbar-right col-xs-2" >
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+           <ul class="nav navbar-nav navbar-right col-xs-2" >
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Language <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-          -->
+           -->
     </div>
   </div>
 </nav> 
@@ -171,7 +179,7 @@ function ajax(url,func){
 			    
 					<div class="col-xs-7">
 
-							</div>
+          </div>
 			  </div>
 			</form>
 
@@ -179,8 +187,8 @@ function ajax(url,func){
 
 	</div>
 
-	<div class="row">
-		<div class="col-xs-12" style="padding-bottom: 50px;">
+	<div class="row" style="padding-bottom: 125px; padding-top: 150px">
+		<div class="col-xs-12" >
 			<h1><%= I18n.t(:we_help_you) %> </h1>
 		</div>
 	</div>

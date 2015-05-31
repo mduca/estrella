@@ -13,6 +13,13 @@
 
 ActiveRecord::Schema.define(version: 20150531124908) do
 
+  create_table "forms", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "first"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "paths", force: :cascade do |t|
     t.string   "filter_zipcode"
     t.string   "filter_language"
@@ -35,5 +42,14 @@ ActiveRecord::Schema.define(version: 20150531124908) do
     t.string   "legal_areas"
     t.string   "legal_services"
   end
+
+  create_table "questions", force: :cascade do |t|
+    t.string   "content"
+    t.integer  "form_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "questions", ["form_id"], name: "index_questions_on_form_id"
 
 end
