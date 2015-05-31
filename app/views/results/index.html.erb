@@ -83,6 +83,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 </script>
 <style>
+	.desc {
+		padding-right:40px;
+		padding-left:40px;
+	}	
+	.result_item{
+		border-bottom:1px solid lightgray;
+		padding-top:10px;
+		padding-bottom:10px;
+
+	}
+
 	.navbar-brand, img {
     padding-bottom: 25px;
     height: 75px;
@@ -106,27 +117,40 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	</div>
 
 	<div class="row">
-		<div class="col-xs-12">
-			<table class="table">
+			<div class="col-xs-12 ">
+				
 					<% @results.each do |organization| %>
-						<tr>
-							<td>
-								<h2><%= HTMLEntities.new.decode organization["title"] %></h2>
-								<% organization["pbn:legalServices"].each do |legalservice| %>
-									<%= legalservice["service"] %>
-								<% end %>
-								</td>
-							<td>15min</td>
+						<div class="col-xs-12 result_item">
+							<div class='col-md-8'>
+								<h3 class=''>
+									<%= HTMLEntities.new.decode organization["title"] %>
+								</h3>
+								<p class='desc '>
+									<% organization["pbn:legalServices"].each do |legalservice| %>
+										<%= legalservice["service"] %>
+									<% end %>
+								</p>
+							</div>
+							<!--
+							<span  class='col-md-4' >15min</span>
+							-->
+
 							<!-- 
 							TODO: create full contact page
 							/results/<%= organization["id"] %>
-								-->
-							<td><a href="tel:<%= organization["pbn:contact"]["phone"] %>" class="btn btn-success"><%= I18n.t("nav_contact") %></a></td>
-						</tr>
+							-->
 
+							<div class='col-md-4 .col-lg-offset-0' style="text-align:right">
+								<a href="tel:<%= organization["pbn:contact"]["phone"] %>" class="btn btn-success">
+									<%= I18n.t("nav_contact") %>
+								</a>
+							</div>
+
+						</div>
+						
 					<% end %>
-			</table>
-		</div>
+			</div>
+
 	</div>
 
 
