@@ -1,4 +1,5 @@
 class ScreeningController < ApplicationController
+	 layout "guided"
 
 	def question_1
 		unless request.post?
@@ -31,7 +32,6 @@ class ScreeningController < ApplicationController
 
 
 			render "screening/question"
-
 
 		else
 			if params["answer"] == "question_1_option_1"
