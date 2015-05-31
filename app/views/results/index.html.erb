@@ -82,6 +82,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 </script>
+<style>
+	.navbar-brand, img {
+    padding-bottom: 25px;
+    height: 75px;
+  }
+</style>
+
 <div class="container">
 	
 	<div class="row">
@@ -103,12 +110,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			<table class="table">
 					<% @results.each do |organization| %>
 						<tr>
-										<td>
-														<h2><%= organization["title"] %></h2>
-														<% organization["pbn:legalServices"].each do |legalservice| %>
-										<%= legalservice["service"] %>
-									<% end %>
-							</td>
+							<td>
+								<h2><%= HTMLEntities.new.decode organization["title"] %></h2>
+								<% organization["pbn:legalServices"].each do |legalservice| %>
+									<%= legalservice["service"] %>
+								<% end %>
+								</td>
 							<td>15min</td>
 							<!-- 
 							TODO: create full contact page
