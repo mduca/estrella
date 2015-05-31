@@ -11,12 +11,76 @@ function find_me(){
         alert("Geolocation is not supported by this browser.");
     }
 }
+
+/**
+show position gets called when the user clicks the little arrow
+this functino fills in the information taken from the location api
+if available and feeds latlng into the geocode api.
+*/
 function showPosition(position) {
-    var v = 'lat:' + position.coords.latitude;
-    v += " lon: " + position.coords.longitude;
-    document.getElementById("location").value = v;
+    var latlng =  position.coords.latitude+","+position.coords.longitude;
+    lonlat2zipcode(latlng,parse_results)
 }
 
+/**
+this function gets called when the 
+geocode api results are obtained from the server.
+if fills in the results into the location field.
+
+*/
+function parse_results(a){
+		alert(a.results[0].address_components[7].types[0]);
+		var ac = a.results[0].address_components;
+		//var ac = a["results"][0]["address_components"];
+		for(var i=0;ac.length;i++){
+			if(ac[i]["types"][0] == "postal_code"){
+				document.getElementById("location").value = ac[i]["short_name"];
+				return;
+			}
+		}
+		document.getElementById("location").value = " :(";
+	
+}
+
+
+function lonlat2zipcode(latlng, cb){
+	// 
+	var zipcode = "";
+	
+	//ajax("http://maps.googleapis.com/maps/api/geocode/json?latlng=37.7875322,-122.3967094&sensor=true",
+	
+	ajax("/api/lonlat2zipcode/?latlng=" + latlng, function(txt){
+		try{
+			var a = JSON.parse(txt);
+			geocode_results = a;
+			cb(a);
+		}catch(e){
+			alert(e);
+		}
+	});
+	return zipcode;
+}
+
+/** ajax request function call (no, we don't like jQuery) */
+
+function ajax(url,func){
+
+  var xmlhttp = new XMLHttpRequest();
+
+  xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          //var myArr = JSON.parse(xmlhttp.responseText);
+          func(xmlhttp.responseText);
+      }
+      if (xmlhttp.readyState == 4 && xmlhttp.status != 200) {
+          //var myArr = JSON.parse(xmlhttp.responseText);
+          alert(xmlhttp.status );
+      }
+  }
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+
+}
 </script>
 
 <style>

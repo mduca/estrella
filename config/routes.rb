@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get 'screening' => 'screening#index'
 
+	get '/api/lonlat2zipcode' => 'welcome#lonlat2zipcode'
 
   get 'screening/question_1' => 'screening#question_1'
   get 'screening/question_1_sub_1' => 'screening#question_1_sub_1'

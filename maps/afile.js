@@ -3,12 +3,13 @@ var i18nData = [];
 var geocode_results = {};
 i18nData[""]
 
-function lonlat2zipcode(cb){
+function lonlat2zipcode(latlng, cb){
 	// 
 	var zipcode = "";
+	
 	//ajax("http://maps.googleapis.com/maps/api/geocode/json?latlng=37.7875322,-122.3967094&sensor=true",
 	
-	ajax("./api2.json", function(txt){
+	ajax("/api/lonlat2zipcode/?latlng=" + latlng, function(txt){
 		try{
 			var a = JSON.parse(txt);
 			geocode_results = a;

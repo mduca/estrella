@@ -1,4 +1,10 @@
 class WelcomeController < ApplicationController
+	def lonlat2zipcode
+		url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=" +params["latlng"]+ "&sensor=true",
+	
+      render json: [[[0,1,2,3]]]
+	end
+
   def index
 		@site_direction = ApplicationController.site_direction(params[:locale])
 		
