@@ -1,2 +1,49 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<div class="container">
+	
+	<div class="row">
+		
+		<div class="col-xs-12">
+			<form>
+			  <div class="form-group row">
+			  	<div class="col-xs-5"><label for="language">Select language:</label></div>
+			    
+			    <div class="col-xs-7">
+			    <select class="form-control">
+				  <option>1</option>
+				  <option>2</option>
+				  <option>3</option>
+				  <option>4</option>
+				  <option>5</option>
+				</select>
+				</div>
+			  </div>
+			</form>
+
+		</div>	
+
+	</div>
+
+	<div class="row logo">
+		<center><%= image_tag("estrella-logo-horizontal.svg", alt: "Estrella logo") %></center>	
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>We help you find legal help.</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<form action="screening" method="get">
+			  <div class="form-group">
+			    <label for="localization">Where do you live?</label>
+			    <div class="input-group">
+			      <input type="text" class="form-control" id="localization" placeholder="Enter City/State, ZIP,...">
+			      <div id="location-arrow" class="input-group-addon"><i class="fa fa-location-arrow"></i></div>
+			    </div>
+			  </div>
+			  <button type="submit" class="btn btn-success">Start!</button>
+		</form>
+	</div>
+
+</div>
