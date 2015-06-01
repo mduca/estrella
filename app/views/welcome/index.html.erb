@@ -126,7 +126,23 @@ function ajax(url,func){
           background-attachment: fixed;
           overflow: hidden;
         }
-     
+        .welcome {
+          padding-bottom: 125px; 
+          padding-top: 150px;
+        }         
+          
+        h1, label { color:white;}
+      	@media (max-width: 480px) {
+        .welcome {
+          padding-bottom: 75px; 
+          padding-top: 85px;
+          }
+        }
+
+        .add-padding {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
         </style>
 
 <nav class="navbar navbar-default">
@@ -174,11 +190,11 @@ function ajax(url,func){
   </div>
 </nav> 
 
-<div class="container">
+<div class="container add-padding">
 	
 	<div class="row">
 		
-		<div class="col-xs-12">
+		<div class="col-xs-10">
 			<form>
 			  <div class="form-group row">
           <!-- <div class="col-xs-5"><label for="language"><%= I18n.t(:select_language) %></label></div> -->
@@ -193,13 +209,13 @@ function ajax(url,func){
 
 	</div>
 
-	<div class="row" style="padding-bottom: 125px; padding-top: 150px">
+	<div class="row welcome" >
 		<div class="col-xs-12" >
 			<h1><%= I18n.t(:we_help_you) %> </h1>
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row row-centered">
 		<form action="screening" method="get">
 			  <div class="form-group">
 			    <label for="location"><%= I18n.t(:where_do_you_live) %></label>
